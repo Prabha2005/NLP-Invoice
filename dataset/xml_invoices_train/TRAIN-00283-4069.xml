@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:pint:billing-1@ae-X</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:bis:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>TRAIN-00283-4069</cbc:ID>
+  <cbc:IssueDate>2026-03-04</cbc:IssueDate>
+  <cbc:DueDate>2026-03-12</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-81527</cbc:BuyerReference>
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">928872011278360</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-7111760</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Francis-Jackson</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>9248 Annette Vista</cbc:StreetName>
+        <cbc:BuildingNumber>470</cbc:BuildingNumber>
+        <cbc:CityName>Reevesshire</cbc:CityName>
+        <cbc:PostalZone>48849</cbc:PostalZone>
+        <cbc:CountrySubentity>AJM</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>928872011278360</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Francis-Jackson</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-1227516</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Accounts Receivable</cbc:Name>
+        <cbc:Telephone>(939)767-8311</cbc:Telephone>
+        <cbc:ElectronicMail>gregoryday@nelson-kent.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">609599311393638</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-6916088</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Bryant-Morgan</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>811 Alexandra Ville</cbc:StreetName>
+        <cbc:BuildingNumber>309</cbc:BuildingNumber>
+        <cbc:CityName>South Erin</cbc:CityName>
+        <cbc:PostalZone>90969</cbc:PostalZone>
+        <cbc:CountrySubentity>SHJ</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>609599311393638</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Bryant-Morgan</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-9687763</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>BANK-TRF-TRAIN-00283-4069</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>AE42404122122910630749185</cbc:ID>
+      <cbc:Name>Francis-Jackson</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+
+  <cac:PaymentTerms>
+    <cbc:Note>Payable within 30 days from invoice date.</cbc:Note>
+  </cac:PaymentTerms>
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="GBP">18012.86</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="GBP">180128.61</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="GBP">18012.86</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="GBP">180128.61</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="GBP">180128.61</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="GBP">198141.47</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="GBP">198141.47</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">14</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">23430.40</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>embrace back-end markets</cbc:Description>
+      <cbc:Name>Horizontal real-time Graphic Interface</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">1673.60</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">9</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">39661.92</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>evolve ubiquitous e-services</cbc:Description>
+      <cbc:Name>Operative attitude-oriented complexity</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">4406.88</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">2972.06</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>evolve cross-media web services</cbc:Description>
+      <cbc:Name>Stand-alone heuristic system engine</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>AE</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">2972.06</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">19</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">190.57</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>innovate distributed markets</cbc:Description>
+      <cbc:Name>Compatible dedicated core</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">10.03</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">16</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">8822.08</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>scale mission-critical infrastructures</cbc:Description>
+      <cbc:Name>Sharable intangible service-desk</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">551.38</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">19</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">64634.77</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>disintermediate transparent relationships</cbc:Description>
+      <cbc:Name>Organized heuristic open architecture</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">3401.83</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">8</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">21029.76</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>target proactive bandwidth</cbc:Description>
+      <cbc:Name>Virtual bandwidth-monitored open system</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">2628.72</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>8</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">5</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="GBP">19387.05</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>grow synergistic metrics</cbc:Description>
+      <cbc:Name>Triple-buffered discrete strategy</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="GBP">3877.41</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

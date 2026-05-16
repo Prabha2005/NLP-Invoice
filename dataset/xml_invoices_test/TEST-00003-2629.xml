@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:pint:billing-1@ae-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:bis:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>TEST-00003-2629</cbc:ID>
+  <cbc:IssueDate>2026-03-16</cbc:IssueDate>
+
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-74011</cbc:BuyerReference>
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">707797532247578</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-8155525</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Nelson Group</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>83026 April Burgs Apt. 651</cbc:StreetName>
+        <cbc:BuildingNumber>750</cbc:BuildingNumber>
+        <cbc:CityName>Haleymouth</cbc:CityName>
+        <cbc:PostalZone>71560</cbc:PostalZone>
+        <cbc:CountrySubentity>AUH</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>707797532247578</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Nelson Group</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-8462919</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Accounts Receivable</cbc:Name>
+        <cbc:Telephone>+1-772-770-7110</cbc:Telephone>
+        <cbc:ElectronicMail>nicholashenry@lee.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">999583210478464</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-9739149</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Hill, Miller and Harris</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>4118 Johnson Spur</cbc:StreetName>
+        <cbc:BuildingNumber>130</cbc:BuildingNumber>
+        <cbc:CityName>Tammyborough</cbc:CityName>
+        <cbc:PostalZone>14946</cbc:PostalZone>
+        <cbc:CountrySubentity>AJM</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>999583210478464</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Hill, Miller and Harris</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-5948298</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>BANK-TRF-TEST-00003-2629</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>AE13435788682200252822991</cbc:ID>
+      <cbc:Name>Nelson Group</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+
+  <cac:PaymentTerms>
+    <cbc:Note>Payable within 30 days from invoice date.</cbc:Note>
+  </cac:PaymentTerms>
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="USD">239382.61</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="USD">239382.61</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="USD">239382.61</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="USD">239382.61</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="USD">239382.61</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">16</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">35158.24</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>seize interactive markets</cbc:Description>
+      <cbc:Name>Configurable interactive ability</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">2197.39</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">46963.30</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>exploit strategic platforms</cbc:Description>
+      <cbc:Name>Triple-buffered transitional secured lin</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">4696.33</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">20</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">75371.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>redefine back-end applications</cbc:Description>
+      <cbc:Name>Phased intangible approach</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">3768.58</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">9</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">6383.79</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>grow efficient bandwidth</cbc:Description>
+      <cbc:Name>Down-sized contextually-based adapter</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">709.31</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">18</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">75505.68</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>architect robust action-items</cbc:Description>
+      <cbc:Name>Ameliorated non-volatile capability</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">4194.76</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

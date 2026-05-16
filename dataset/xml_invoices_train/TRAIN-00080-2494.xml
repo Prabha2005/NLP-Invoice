@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:pint:billing-1@ae-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:bis:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>TRAIN-00080-2494</cbc:ID>
+  <cbc:IssueDate>2025-10-25</cbc:IssueDate>
+  <cbc:DueDate>2026-01-05</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-82105</cbc:BuyerReference>
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">555304982338161</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-3345338</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Tapia-Garrett</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>31827 Christopher Freeway Suite 786</cbc:StreetName>
+        <cbc:BuildingNumber>125</cbc:BuildingNumber>
+        <cbc:CityName>Dunnland</cbc:CityName>
+        <cbc:PostalZone>73542</cbc:PostalZone>
+        <cbc:CountrySubentity>RAK</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>555304982338161</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Tapia-Garrett</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-1200603</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Accounts Receivable</cbc:Name>
+        <cbc:Telephone>248.443.9828x52689</cbc:Telephone>
+        <cbc:ElectronicMail>stevenmacdonald@johnson.net</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">609133388719798</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-2034637</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Phillips-Potts</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>30536 Elizabeth Mount</cbc:StreetName>
+        <cbc:BuildingNumber>851</cbc:BuildingNumber>
+        <cbc:CityName>Wendyview</cbc:CityName>
+        <cbc:PostalZone>80846</cbc:PostalZone>
+        <cbc:CountrySubentity>AUH</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>609133388719798</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Phillips-Potts</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-3193037</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>BANK-TRF-TRAIN-00080-2494</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>AE41219203658051792923248</cbc:ID>
+      <cbc:Name>Tapia-Garrett</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+
+  <cac:PaymentTerms>
+    <cbc:Note>Payable within 30 days from invoice date.</cbc:Note>
+  </cac:PaymentTerms>
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">13045.30</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">13045.30</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">13045.30</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">13045.30</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="EUR">13045.30</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">13045.30</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>envisioneer seamless users</cbc:Description>
+      <cbc:Name>Fully-configurable 5thgeneration synergy</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1304.53</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

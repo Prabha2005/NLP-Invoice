@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:pint:billing-1@ae-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:bis:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>TRAIN-00049-8837</cbc:ID>
+  <cbc:IssueDate>2026-02-16</cbc:IssueDate>
+  <cbc:DueDate>2026-04-22</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-38047</cbc:BuyerReference>
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">598074146039095</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-5557052</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Blankenship LLC</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>0221 Davis Burgs</cbc:StreetName>
+        <cbc:BuildingNumber>141</cbc:BuildingNumber>
+        <cbc:CityName>Port Theresaton</cbc:CityName>
+        <cbc:PostalZone>75078</cbc:PostalZone>
+        <cbc:CountrySubentity>AJM</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>598074146039095</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Blankenship LLC</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-2832517</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Accounts Receivable</cbc:Name>
+        <cbc:Telephone>001-595-998-4314</cbc:Telephone>
+        <cbc:ElectronicMail>rachel38@edwards.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">388731993852120</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-5014486</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Morales, Gibson and Taylor</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>0593 Amber Inlet Apt. 152</cbc:StreetName>
+        <cbc:BuildingNumber>249</cbc:BuildingNumber>
+        <cbc:CityName>West Derrick</cbc:CityName>
+        <cbc:PostalZone>77709</cbc:PostalZone>
+        <cbc:CountrySubentity>DXB</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>388731993852120</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Morales, Gibson and Taylor</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-9909397</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>BANK-TRF-TRAIN-00049-8837</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>AE35423529658350347527323</cbc:ID>
+      <cbc:Name>Blankenship LLC</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+
+  <cac:PaymentTerms>
+    <cbc:Note>Payable within 30 days from invoice date.</cbc:Note>
+  </cac:PaymentTerms>
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">31319.56</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">313195.55</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">31319.56</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">313195.55</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">313195.55</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">344515.11</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="EUR">344515.11</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">11</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">30069.93</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>empower B2C web services</cbc:Description>
+      <cbc:Name>Streamlined dynamic intranet</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">2733.63</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">20</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">48469.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>syndicate web-enabled architectures</cbc:Description>
+      <cbc:Name>Face-to-face foreground focus group</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">2423.48</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">9</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">25133.76</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>revolutionize revolutionary platforms</cbc:Description>
+      <cbc:Name>Managed analyzing strategy</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">2792.64</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">38570.20</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>unleash dynamic ROI</cbc:Description>
+      <cbc:Name>Re-engineered non-volatile benchmark</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">3857.02</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">16</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">25417.92</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>monetize B2C infrastructures</cbc:Description>
+      <cbc:Name>Organic 3rdgeneration Local Area Network</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1588.62</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">18</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">84038.94</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>engage cross-platform portals</cbc:Description>
+      <cbc:Name>Open-architected foreground success</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">4668.83</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">6137.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>enhance B2B technologies</cbc:Description>
+      <cbc:Name>Phased system-worthy extranet</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>AE</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">613.76</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>8</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">13</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">53206.40</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>exploit killer applications</cbc:Description>
+      <cbc:Name>Automated 3rdgeneration encoding</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">4092.80</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>9</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">2151.20</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>synergize next-generation synergies</cbc:Description>
+      <cbc:Name>De-engineered reciprocal framework</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">215.12</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

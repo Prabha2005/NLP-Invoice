@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:pint:billing-1@ae-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:bis:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>TEST-00035-2366</cbc:ID>
+  <cbc:IssueDate>2025-08-11</cbc:IssueDate>
+  <cbc:DueDate>2025-11-01</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>AED</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>PO-74566</cbc:BuyerReference>
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">949558497299156</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-9108087</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Jones, Merritt and Taylor</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>5893 Martinez Cape</cbc:StreetName>
+        <cbc:BuildingNumber>527</cbc:BuildingNumber>
+        <cbc:CityName>West Lauren</cbc:CityName>
+        <cbc:PostalZone>07994</cbc:PostalZone>
+        <cbc:CountrySubentity>SHJ</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>949558497299156</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Jones, Merritt and Taylor</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-5760630</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Accounts Receivable</cbc:Name>
+        <cbc:Telephone>463-224-5341</cbc:Telephone>
+        <cbc:ElectronicMail>jessicarichard@gonzalez-santos.org</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0235">777064688285702</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="CRN">CN-6027079</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName><cbc:Name>Barker-Davis</cbc:Name></cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>6743 Nicole Springs Suite 960</cbc:StreetName>
+        <cbc:BuildingNumber>271</cbc:BuildingNumber>
+        <cbc:CityName>Greertown</cbc:CityName>
+        <cbc:PostalZone>96405</cbc:PostalZone>
+        <cbc:CountrySubentity>RAK</cbc:CountrySubentity>
+        <cac:Country><cbc:IdentificationCode>AE</cbc:IdentificationCode></cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>777064688285702</cbc:CompanyID>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Barker-Davis</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="PAS" schemeAgencyName="AE">CN-5177895</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>BANK-TRF-TEST-00035-2366</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>AE90696358137232976064892</cbc:ID>
+      <cbc:Name>Jones, Merritt and Taylor</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+
+  <cac:PaymentTerms>
+    <cbc:Note>Payable within 30 days from invoice date.</cbc:Note>
+  </cac:PaymentTerms>
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="AED">0.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="AED">224542.92</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="AED">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="AED">224542.92</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="AED">224542.92</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="AED">224542.92</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="AED">224542.92</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">20</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="AED">48774.40</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>synergize real-time partnerships</cbc:Description>
+      <cbc:Name>Total modular installation</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="AED">2438.72</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">19</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="AED">40880.97</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>implement rich paradigms</cbc:Description>
+      <cbc:Name>Organized contextually-based service-des</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="AED">2151.63</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">15</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="AED">58321.35</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>transition rich metrics</cbc:Description>
+      <cbc:Name>Multi-channeled zero tolerance throughpu</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="AED">3888.09</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">19</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="AED">76566.20</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>target turn-key niches</cbc:Description>
+      <cbc:Name>Distributed multi-tasking circuit</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>AE</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme><cbc:ID>VAT</cbc:ID></cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="AED">4029.80</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,35 @@
+{"rule_id": "TE-001", "rule_text": "IssueDate must not be empty.", "severity": "HIGH", "rule_type": "date_validation", "expected_error_message": "IssueDate cannot be empty."}
+{"rule_id": "TE-002", "rule_text": "If PaymentMeansCode is 30 (bank transfer), PayeeFinancialAccount ID must be present.", "severity": "MEDIUM", "rule_type": "conditional_required_field", "expected_error_message": "PayeeFinancialAccount required for bank transfer payment."}
+{"rule_id": "TE-003", "rule_text": "InvoiceTypeCode must be present.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "InvoiceTypeCode is required."}
+{"rule_id": "TE-004", "rule_text": "Invoice must include a TaxTotal block.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "TaxTotal block is required."}
+{"rule_id": "TE-005", "rule_text": "Customer name must be present.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Customer name is missing."}
+{"rule_id": "TE-006", "rule_text": "ProfileID must be present on every invoice.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "ProfileID is required."}
+{"rule_id": "TE-007", "rule_text": "Each invoice line must have a ClassifiedTaxCategory ID.", "severity": "HIGH", "rule_type": "tax_category_validation", "expected_error_message": "ClassifiedTaxCategory ID is missing on an invoice line."}
+{"rule_id": "TE-008", "rule_text": "IssueDate must not be in the future.", "severity": "HIGH", "rule_type": "date_validation", "expected_error_message": "IssueDate cannot be a future date."}
+{"rule_id": "TE-009", "rule_text": "If tax category is Z (zero-rated), TaxExemptionReasonCode must be present.", "severity": "HIGH", "rule_type": "conditional_required_field", "expected_error_message": "TaxExemptionReasonCode required for zero-rated tax."}
+{"rule_id": "TE-010", "rule_text": "Supplier PartyLegalEntity must include CompanyID.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Supplier PartyLegalEntity CompanyID missing."}
+{"rule_id": "TE-011", "rule_text": "Each invoice line must have an ID.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Invoice line ID is missing."}
+{"rule_id": "TE-012", "rule_text": "Supplier postal address must include PostalZone.", "severity": "MEDIUM", "rule_type": "required_field", "expected_error_message": "Supplier PostalZone is missing."}
+{"rule_id": "TE-013", "rule_text": "BaseQuantity on each line must be greater than zero.", "severity": "HIGH", "rule_type": "numeric_comparison", "expected_error_message": "BaseQuantity must be positive."}
+{"rule_id": "TE-014", "rule_text": "LineExtensionAmount on each line must be zero or greater.", "severity": "HIGH", "rule_type": "numeric_comparison", "expected_error_message": "LineExtensionAmount cannot be negative."}
+{"rule_id": "TE-015", "rule_text": "DocumentCurrencyCode must be present.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "DocumentCurrencyCode is required."}
+{"rule_id": "TE-016", "rule_text": "IssueDate must follow the format YYYY-MM-DD.", "severity": "MEDIUM", "rule_type": "date_validation", "expected_error_message": "IssueDate format is invalid."}
+{"rule_id": "TE-017", "rule_text": "Supplier EndpointID must not be duplicated across invoices in a batch.", "severity": "MEDIUM", "rule_type": "duplicate_field_check", "expected_error_message": "Duplicate Supplier EndpointID in batch."}
+{"rule_id": "TE-018", "rule_text": "Tax category ID must be one of S, Z, E, or AE.", "severity": "HIGH", "rule_type": "tax_category_validation", "expected_error_message": "Tax category ID is not a recognised value."}
+{"rule_id": "TE-019", "rule_text": "Invoice ID must be unique across the batch.", "severity": "HIGH", "rule_type": "duplicate_field_check", "expected_error_message": "Duplicate invoice ID detected."}
+{"rule_id": "TE-020", "rule_text": "PriceAmount on each line must be greater than zero.", "severity": "HIGH", "rule_type": "numeric_comparison", "expected_error_message": "PriceAmount must be positive."}
+{"rule_id": "TE-021", "rule_text": "Supplier postal address must include CountrySubentity.", "severity": "LOW", "rule_type": "required_field", "expected_error_message": "Supplier CountrySubentity is missing."}
+{"rule_id": "TE-022", "rule_text": "TaxableAmount currency must match DocumentCurrencyCode.", "severity": "HIGH", "rule_type": "currency_consistency", "expected_error_message": "TaxableAmount currency mismatch."}
+{"rule_id": "TE-023", "rule_text": "Each invoice line must have a LineExtensionAmount.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "LineExtensionAmount is missing on a line."}
+{"rule_id": "TE-024", "rule_text": "All monetary amounts must use the same currency as DocumentCurrencyCode.", "severity": "HIGH", "rule_type": "currency_consistency", "expected_error_message": "Currency mismatch detected on a monetary field."}
+{"rule_id": "TE-025", "rule_text": "Each invoice line must include an Item block.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Item block missing on invoice line."}
+{"rule_id": "TE-026", "rule_text": "Customer legal registration name must be present.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Customer RegistrationName is missing."}
+{"rule_id": "TE-027", "rule_text": "Invoice ID must be present.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Invoice ID is missing."}
+{"rule_id": "TE-028", "rule_text": "LegalMonetaryTotal must include TaxExclusiveAmount.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "TaxExclusiveAmount is missing."}
+{"rule_id": "TE-029", "rule_text": "Invoice must include a LegalMonetaryTotal block.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "LegalMonetaryTotal block is required."}
+{"rule_id": "TE-030", "rule_text": "Invoice must have a DueDate.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "DueDate is required."}
+{"rule_id": "TE-031", "rule_text": "Tax percentage must not exceed 28%.", "severity": "MEDIUM", "rule_type": "numeric_comparison", "expected_error_message": "Tax percentage exceeds 28%."}
+{"rule_id": "TE-032", "rule_text": "Each invoice line must include a Price block.", "severity": "HIGH", "rule_type": "required_field", "expected_error_message": "Price block missing on invoice line."}
+{"rule_id": "TE-033", "rule_text": "Tax percent must not be negative.", "severity": "MEDIUM", "rule_type": "numeric_comparison", "expected_error_message": "Tax percent is negative."}
+{"rule_id": "TE-034", "rule_text": "TaxInclusiveAmount must be zero or greater.", "severity": "MEDIUM", "rule_type": "numeric_comparison", "expected_error_message": "TaxInclusiveAmount cannot be negative."}
+{"rule_id": "TE-035", "rule_text": "TaxAmount must be zero or greater.", "severity": "HIGH", "rule_type": "numeric_comparison", "expected_error_message": "TaxAmount cannot be negative."}

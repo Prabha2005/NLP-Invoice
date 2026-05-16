@@ -2,6 +2,8 @@
 *.txt
 *.md
 !README.md
+!dataset/rules_train.txt
+!dataset/rules_test.txt
 
 # Python
 __pycache__/
@@ -39,13 +41,8 @@ Thumbs.db
 *.swp
 *.swo
 
-# Dataset (generated — large, do not commit)
-dataset/xml_invoices_train/
-dataset/xml_invoices_test/
-dataset/rules_train.txt
-dataset/rules_test.txt
-dataset/rule_mappings_train.json
-dataset/validation_labels_train.json
+# Dataset output is committed so all teammates share identical data.
+# Re-generate only if the whole team agrees (run dataset/generate.py).
 
 # SQLite
 *.db

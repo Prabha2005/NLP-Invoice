@@ -1,0 +1,3540 @@
+[
+  {
+    "invoice_id": "TRAIN-00001-4527",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 120049.29,
+    "tax_amount": 18007.39,
+    "payable_amount": 138056.68,
+    "seller_name": "Reed-Jordan",
+    "buyer_name": "Rose and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00002-8573",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 32879.2,
+    "tax_amount": 4931.88,
+    "payable_amount": 41691.19,
+    "seller_name": "Castro-Scott",
+    "buyer_name": "Hansen Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00003-7543",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "USD",
+    "taxable_amount": 32381.06,
+    "tax_amount": 6476.21,
+    "payable_amount": 38857.27,
+    "seller_name": "Brown-Barnett",
+    "buyer_name": "Ferguson, Dixon and Farley"
+  },
+  {
+    "invoice_id": "TRAIN-00004-3591",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 324075.85,
+    "tax_amount": 32407.58,
+    "payable_amount": 356483.43,
+    "seller_name": "Moreno, Maldonado and Lawson",
+    "buyer_name": "Patterson-Mendoza"
+  },
+  {
+    "invoice_id": "TRAIN-00005-2049",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 120058.87,
+    "tax_amount": 0.0,
+    "payable_amount": 120058.87,
+    "seller_name": "Miller-Bruce",
+    "buyer_name": "Jones-Delgado"
+  },
+  {
+    "invoice_id": "TRAIN-00006-2528",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 149197.05,
+    "tax_amount": 0.0,
+    "payable_amount": 149197.05,
+    "seller_name": "Owens-Shah",
+    "buyer_name": "Hartman LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00007-9565",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 51967.78,
+    "tax_amount": 2598.39,
+    "payable_amount": 54566.17,
+    "seller_name": "Cook-Williams",
+    "buyer_name": "Nguyen-Calhoun"
+  },
+  {
+    "invoice_id": "TRAIN-00008-2697",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 35208.28,
+    "tax_amount": 1760.41,
+    "payable_amount": 36968.69,
+    "seller_name": "Stafford-Cohen",
+    "buyer_name": "Smith Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00009-5291",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 277018.23,
+    "tax_amount": 41552.73,
+    "payable_amount": 350527.06,
+    "seller_name": "Copeland Ltd",
+    "buyer_name": "Martinez, Hernandez and Donovan"
+  },
+  {
+    "invoice_id": "TRAIN-00010-6728",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "USD",
+    "taxable_amount": 84618.3,
+    "tax_amount": 4230.91,
+    "payable_amount": 88849.21,
+    "seller_name": "Vargas, Meyer and Morales",
+    "buyer_name": "Watts, Santos and Cox"
+  },
+  {
+    "invoice_id": "TRAIN-00011-5173",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 292743.46,
+    "tax_amount": 43911.52,
+    "payable_amount": 336654.98,
+    "seller_name": "Adams PLC",
+    "buyer_name": "Taylor, Smith and Scott"
+  },
+  {
+    "invoice_id": "TRAIN-00012-1400",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 249932.67,
+    "tax_amount": 37489.9,
+    "payable_amount": 287422.57,
+    "seller_name": "Vaughn-Hunt",
+    "buyer_name": "Brown Group"
+  },
+  {
+    "invoice_id": "TRAIN-00013-4841",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 37950.23,
+    "tax_amount": 0.0,
+    "payable_amount": 37950.23,
+    "seller_name": "Shepherd Group",
+    "buyer_name": "Martinez-Fisher"
+  },
+  {
+    "invoice_id": "TRAIN-00014-8140",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 117117.74,
+    "tax_amount": 17567.66,
+    "payable_amount": 134685.4,
+    "seller_name": "Green Ltd",
+    "buyer_name": "Davis and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00015-1317",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 36923.43,
+    "tax_amount": 1846.17,
+    "payable_amount": 38769.6,
+    "seller_name": "Kennedy-Murphy",
+    "buyer_name": "Osborn-Snyder"
+  },
+  {
+    "invoice_id": "TRAIN-00016-6111",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 79587.7,
+    "tax_amount": 22284.56,
+    "payable_amount": 101872.26,
+    "seller_name": "Pena, Williams and Simmons",
+    "buyer_name": "Fry Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00017-2729",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 125936.75,
+    "tax_amount": 12593.67,
+    "payable_amount": 138530.42,
+    "seller_name": "Jones and Sons",
+    "buyer_name": "Shelton Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00018-8988",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 384898.67,
+    "tax_amount": 38489.87,
+    "payable_amount": 423388.54,
+    "seller_name": "Lewis-Ortiz",
+    "buyer_name": "Clark, Shaw and Ponce"
+  },
+  {
+    "invoice_id": "TRAIN-00019-5636",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 98497.55,
+    "tax_amount": 9849.75,
+    "payable_amount": 108347.3,
+    "seller_name": "Brown, Washington and Price",
+    "buyer_name": "Charles and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00020-7818",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 283919.79,
+    "tax_amount": 28391.98,
+    "payable_amount": 312311.77,
+    "seller_name": "Fitzgerald LLC",
+    "buyer_name": "Morrow-Harris"
+  },
+  {
+    "invoice_id": "TRAIN-00021-3330",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "USD",
+    "taxable_amount": 301809.44,
+    "tax_amount": 30180.94,
+    "payable_amount": 331990.38,
+    "seller_name": "Black-Fields",
+    "buyer_name": "Carroll-Johnson"
+  },
+  {
+    "invoice_id": "TRAIN-00022-6296",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 265620.03,
+    "tax_amount": 148747.22,
+    "payable_amount": 339993.64,
+    "seller_name": "Gilbert, Mosley and Mcmillan",
+    "buyer_name": "Fernandez-Jones"
+  },
+  {
+    "invoice_id": "TRAIN-00023-3236",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 308282.74,
+    "tax_amount": 61656.55,
+    "payable_amount": 369939.29,
+    "seller_name": "Taylor LLC",
+    "buyer_name": "Saunders-Harris"
+  },
+  {
+    "invoice_id": "TRAIN-00024-7512",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 120940.99,
+    "tax_amount": 12094.1,
+    "payable_amount": 133035.09,
+    "seller_name": "Wood Ltd",
+    "buyer_name": "Savage Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00025-4804",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 67598.1,
+    "tax_amount": 0.0,
+    "payable_amount": 67598.1,
+    "seller_name": "Griffith-Young",
+    "buyer_name": "George Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00026-5837",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 346986.84,
+    "tax_amount": 69397.37,
+    "payable_amount": 416384.21,
+    "seller_name": "Hunter, Larsen and Roberts",
+    "buyer_name": "Vaughan-Curtis"
+  },
+  {
+    "invoice_id": "TRAIN-00027-5332",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 273800.94,
+    "tax_amount": 41070.14,
+    "payable_amount": 314871.08,
+    "seller_name": "Espinoza-Davis",
+    "buyer_name": "Watts and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00028-7018",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 83834.62,
+    "tax_amount": 16766.92,
+    "payable_amount": 100601.54,
+    "seller_name": "Brown, Carter and James",
+    "buyer_name": "Lewis, Brown and Ramirez"
+  },
+  {
+    "invoice_id": "TRAIN-00029-1243",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "USD",
+    "taxable_amount": 7983.06,
+    "tax_amount": 2235.26,
+    "payable_amount": 10218.32,
+    "seller_name": "Robinson Group",
+    "buyer_name": "Jimenez and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00030-1996",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 260971.58,
+    "tax_amount": 39145.74,
+    "payable_amount": 300117.32,
+    "seller_name": "Williams-Wilson",
+    "buyer_name": "Brown and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00031-2527",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 90883.46,
+    "tax_amount": 25447.37,
+    "payable_amount": 116330.83,
+    "seller_name": "Jones-Burton",
+    "buyer_name": "Burns-Martinez"
+  },
+  {
+    "invoice_id": "TRAIN-00032-7022",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 228380.54,
+    "tax_amount": 68514.16,
+    "payable_amount": 262637.62,
+    "seller_name": "Henderson PLC",
+    "buyer_name": "Rodgers-Holland"
+  },
+  {
+    "invoice_id": "TRAIN-00033-8242",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 107177.3,
+    "tax_amount": 30009.64,
+    "payable_amount": 137186.94,
+    "seller_name": "Hunt, Waters and Castillo",
+    "buyer_name": "Nielsen, Martin and Guzman"
+  },
+  {
+    "invoice_id": "TRAIN-00034-2275",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 114211.86,
+    "tax_amount": 0.0,
+    "payable_amount": 114211.86,
+    "seller_name": "Wilson-Rodriguez",
+    "buyer_name": "Young, Diaz and Gonzales"
+  },
+  {
+    "invoice_id": "TRAIN-00035-3902",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 305862.43,
+    "tax_amount": 30586.24,
+    "payable_amount": 336448.67,
+    "seller_name": "Serrano Group",
+    "buyer_name": "Ramsey LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00036-9586",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 54065.53,
+    "tax_amount": 5406.55,
+    "payable_amount": 59472.08,
+    "seller_name": "Carlson, Barron and Young",
+    "buyer_name": "Wiggins Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00037-6928",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 193809.36,
+    "tax_amount": 54266.62,
+    "payable_amount": 248075.98,
+    "seller_name": "Smith, Evans and Ellis",
+    "buyer_name": "Barrett-Ramos"
+  },
+  {
+    "invoice_id": "TRAIN-00038-8564",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 218402.68,
+    "tax_amount": 32760.4,
+    "payable_amount": 251163.08,
+    "seller_name": "Long-Lopez",
+    "buyer_name": "Thompson-Howard"
+  },
+  {
+    "invoice_id": "TRAIN-00039-6493",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 219158.31,
+    "tax_amount": 43831.66,
+    "payable_amount": 262989.97,
+    "seller_name": "West, Ramsey and Hamilton",
+    "buyer_name": "Perez-Green"
+  },
+  {
+    "invoice_id": "TRAIN-00040-6908",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 204331.27,
+    "tax_amount": 0.0,
+    "payable_amount": 204331.27,
+    "seller_name": "Wu LLC",
+    "buyer_name": "Gutierrez LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00041-5476",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 180250.54,
+    "tax_amount": 54075.16,
+    "payable_amount": 207288.12,
+    "seller_name": "Bowers, Johnson and Thomas",
+    "buyer_name": "Diaz-Farley"
+  },
+  {
+    "invoice_id": "TRAIN-00042-8179",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "AED",
+    "taxable_amount": 132860.33,
+    "tax_amount": 37200.89,
+    "payable_amount": 170061.22,
+    "seller_name": "Williams-Miller",
+    "buyer_name": "Thompson and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00043-8406",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 171586.56,
+    "tax_amount": 34317.31,
+    "payable_amount": 205903.87,
+    "seller_name": "Morales Group",
+    "buyer_name": "Evans-Aguirre"
+  },
+  {
+    "invoice_id": "TRAIN-00044-6644",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 26085.45,
+    "tax_amount": 5217.1,
+    "payable_amount": 28694.0,
+    "seller_name": "Gaines-Miller",
+    "buyer_name": "Thornton LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00045-1674",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 327148.8,
+    "tax_amount": 32714.88,
+    "payable_amount": 359863.68,
+    "seller_name": "Friedman Inc",
+    "buyer_name": "Logan-Payne"
+  },
+  {
+    "invoice_id": "TRAIN-00046-6123",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "USD",
+    "taxable_amount": 215092.97,
+    "tax_amount": 0.0,
+    "payable_amount": 215092.97,
+    "seller_name": "Johnson-Huber",
+    "buyer_name": "Cantu, Herrera and Blanchard"
+  },
+  {
+    "invoice_id": "TRAIN-00047-7114",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 42450.24,
+    "tax_amount": 8490.05,
+    "payable_amount": 50940.29,
+    "seller_name": "Gonzalez-Atkinson",
+    "buyer_name": "Lewis, Miles and Castaneda"
+  },
+  {
+    "invoice_id": "TRAIN-00048-8780",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 163117.92,
+    "tax_amount": 24467.69,
+    "payable_amount": 187585.61,
+    "seller_name": "White Ltd",
+    "buyer_name": "Harper Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00049-8837",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 313195.55,
+    "tax_amount": 31319.56,
+    "payable_amount": 344515.11,
+    "seller_name": "Blankenship LLC",
+    "buyer_name": "Morales, Gibson and Taylor"
+  },
+  {
+    "invoice_id": "TRAIN-00050-4697",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 136262.97,
+    "tax_amount": 27252.59,
+    "payable_amount": 163515.56,
+    "seller_name": "Mitchell Inc",
+    "buyer_name": "Diaz PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00051-6489",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 78803.6,
+    "tax_amount": 22065.01,
+    "payable_amount": 100868.61,
+    "seller_name": "Smith-Klein",
+    "buyer_name": "Reed, Anderson and Martinez"
+  },
+  {
+    "invoice_id": "TRAIN-00052-5064",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 73567.29,
+    "tax_amount": 7356.73,
+    "payable_amount": 80924.02,
+    "seller_name": "Bradley-Martin",
+    "buyer_name": "Hayes-Logan"
+  },
+  {
+    "invoice_id": "TRAIN-00053-6927",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 181030.04,
+    "tax_amount": 18103.0,
+    "payable_amount": 199133.04,
+    "seller_name": "Sheppard and Sons",
+    "buyer_name": "Mcguire, Rollins and Johnson"
+  },
+  {
+    "invoice_id": "TRAIN-00054-2314",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 121441.07,
+    "tax_amount": 12144.11,
+    "payable_amount": 133585.18,
+    "seller_name": "Rocha, Moore and Dean",
+    "buyer_name": "Turner-Lin"
+  },
+  {
+    "invoice_id": "TRAIN-00055-1797",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "AED",
+    "taxable_amount": 121713.68,
+    "tax_amount": 12171.36,
+    "payable_amount": 127799.36,
+    "seller_name": "Adams-Daniels",
+    "buyer_name": "Martin-Lutz"
+  },
+  {
+    "invoice_id": "TRAIN-00056-9592",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 151069.51,
+    "tax_amount": 7553.48,
+    "payable_amount": 158622.99,
+    "seller_name": "Hamilton PLC",
+    "buyer_name": "Patton-Jordan"
+  },
+  {
+    "invoice_id": "TRAIN-00057-4555",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 185389.02,
+    "tax_amount": 18538.9,
+    "payable_amount": 203927.92,
+    "seller_name": "Jennings-Bennett",
+    "buyer_name": "Williams, Allen and Roberts"
+  },
+  {
+    "invoice_id": "TRAIN-00058-5272",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 157347.91,
+    "tax_amount": 7867.4,
+    "payable_amount": 165215.31,
+    "seller_name": "Silva LLC",
+    "buyer_name": "Meyer-Pierce"
+  },
+  {
+    "invoice_id": "TRAIN-00059-3252",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 17717.98,
+    "tax_amount": 0.0,
+    "payable_amount": 17717.98,
+    "seller_name": "Greer-Smith",
+    "buyer_name": "Webb, Jones and Holmes"
+  },
+  {
+    "invoice_id": "TRAIN-00060-9228",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 65421.58,
+    "tax_amount": 6542.16,
+    "payable_amount": 71963.74,
+    "seller_name": "Diaz-Willis",
+    "buyer_name": "Shaw Group"
+  },
+  {
+    "invoice_id": "TRAIN-00061-7179",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 116786.21,
+    "tax_amount": 5839.31,
+    "payable_amount": 122625.52,
+    "seller_name": "Anderson-Smith",
+    "buyer_name": "Clark, Tyler and Smith"
+  },
+  {
+    "invoice_id": "TRAIN-00062-7525",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 117728.6,
+    "tax_amount": 0.0,
+    "payable_amount": 117728.6,
+    "seller_name": "Porter, Deleon and Jones",
+    "buyer_name": "Stephenson, Serrano and Zimmerman"
+  },
+  {
+    "invoice_id": "TRAIN-00063-4043",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 83277.04,
+    "tax_amount": 0.0,
+    "payable_amount": 83277.04,
+    "seller_name": "Salinas and Sons",
+    "buyer_name": "Walker LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00064-7311",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 146494.4,
+    "tax_amount": 29298.88,
+    "payable_amount": 175793.28,
+    "seller_name": "Leonard-Lewis",
+    "buyer_name": "Watson, Burns and Weeks"
+  },
+  {
+    "invoice_id": "TRAIN-00065-6339",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 243327.75,
+    "tax_amount": 68131.77,
+    "payable_amount": 311459.52,
+    "seller_name": "Ortega and Sons",
+    "buyer_name": "Lin, Hunter and Padilla"
+  },
+  {
+    "invoice_id": "TRAIN-00066-5239",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 207320.56,
+    "tax_amount": 58049.76,
+    "payable_amount": 265370.32,
+    "seller_name": "Case-Mcdaniel",
+    "buyer_name": "Barnes, Nash and Rosario"
+  },
+  {
+    "invoice_id": "TRAIN-00067-4053",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 238786.69,
+    "tax_amount": 47757.34,
+    "payable_amount": 286544.03,
+    "seller_name": "Wright-Moses",
+    "buyer_name": "Bryan-Gonzalez"
+  },
+  {
+    "invoice_id": "TRAIN-00068-7286",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 25246.42,
+    "tax_amount": 0.0,
+    "payable_amount": 25246.42,
+    "seller_name": "Foley, Mcdaniel and Mendez",
+    "buyer_name": "Garcia-Bowers"
+  },
+  {
+    "invoice_id": "TRAIN-00069-5785",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "USD",
+    "taxable_amount": 123363.15,
+    "tax_amount": 24672.63,
+    "payable_amount": 148035.78,
+    "seller_name": "Summers PLC",
+    "buyer_name": "Cruz-Perez"
+  },
+  {
+    "invoice_id": "TRAIN-00070-8193",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 276955.66,
+    "tax_amount": 41543.35,
+    "payable_amount": 318499.01,
+    "seller_name": "Wiley, Hernandez and Woods",
+    "buyer_name": "Fuller-Mclaughlin"
+  },
+  {
+    "invoice_id": "TRAIN-00071-1040",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 178955.4,
+    "tax_amount": 0.0,
+    "payable_amount": 178955.4,
+    "seller_name": "Callahan and Sons",
+    "buyer_name": "Kim-Graham"
+  },
+  {
+    "invoice_id": "TRAIN-00072-2350",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "USD",
+    "taxable_amount": 80542.5,
+    "tax_amount": 12081.38,
+    "payable_amount": 92623.88,
+    "seller_name": "Henry, Duncan and Jackson",
+    "buyer_name": "Johnson, Mosley and Gonzalez"
+  },
+  {
+    "invoice_id": "TRAIN-00073-7270",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 74304.58,
+    "tax_amount": 20805.28,
+    "payable_amount": 95109.86,
+    "seller_name": "Humphrey, Roberts and Livingston",
+    "buyer_name": "Patel Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00074-3290",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "AED",
+    "taxable_amount": 373960.16,
+    "tax_amount": 56094.02,
+    "payable_amount": 430054.18,
+    "seller_name": "Wilson, Ramsey and Rollins",
+    "buyer_name": "Anderson-Brown"
+  },
+  {
+    "invoice_id": "TRAIN-00075-7590",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 111556.63,
+    "tax_amount": 11155.66,
+    "payable_amount": 135082.52,
+    "seller_name": "Reyes PLC",
+    "buyer_name": "Jimenez PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00076-3684",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 112977.64,
+    "tax_amount": 0.0,
+    "payable_amount": 112977.64,
+    "seller_name": "Tran Inc",
+    "buyer_name": "Torres, Schneider and Miller"
+  },
+  {
+    "invoice_id": "TRAIN-00077-1753",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 72298.08,
+    "tax_amount": 3614.9,
+    "payable_amount": 75912.98,
+    "seller_name": "Brewer, Coffey and Jenkins",
+    "buyer_name": "Lopez, Wong and Medina"
+  },
+  {
+    "invoice_id": "TRAIN-00078-8620",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 275316.06,
+    "tax_amount": 0.0,
+    "payable_amount": 275316.06,
+    "seller_name": "Ross, Miller and Rodriguez",
+    "buyer_name": "Tapia, Hunt and Brown"
+  },
+  {
+    "invoice_id": "TRAIN-00079-7102",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 191507.3,
+    "tax_amount": 28726.1,
+    "payable_amount": 220233.4,
+    "seller_name": "Lee-Scott",
+    "buyer_name": "Garcia, Mcdaniel and Jackson"
+  },
+  {
+    "invoice_id": "TRAIN-00080-2494",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 13045.3,
+    "tax_amount": 0.0,
+    "payable_amount": 13045.3,
+    "seller_name": "Tapia-Garrett",
+    "buyer_name": "Phillips-Potts"
+  },
+  {
+    "invoice_id": "TRAIN-00081-4246",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 60706.36,
+    "tax_amount": 16997.78,
+    "payable_amount": 77704.14,
+    "seller_name": "Smith Group",
+    "buyer_name": "Harding, Brown and Fox"
+  },
+  {
+    "invoice_id": "TRAIN-00082-3831",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "USD",
+    "taxable_amount": 210000.24,
+    "tax_amount": 21000.02,
+    "payable_amount": 231000.26,
+    "seller_name": "Bond-Mcintyre",
+    "buyer_name": "Tran, Shaw and Williams"
+  },
+  {
+    "invoice_id": "TRAIN-00083-9743",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 293824.84,
+    "tax_amount": 58764.97,
+    "payable_amount": 352589.81,
+    "seller_name": "Lewis, Stone and Trevino",
+    "buyer_name": "Wells-Johnston"
+  },
+  {
+    "invoice_id": "TRAIN-00084-3320",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 165975.17,
+    "tax_amount": 8298.76,
+    "payable_amount": 174273.93,
+    "seller_name": "Cochran-Herrera",
+    "buyer_name": "Jones-King"
+  },
+  {
+    "invoice_id": "TRAIN-00085-4899",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 33355.34,
+    "tax_amount": 3335.53,
+    "payable_amount": 36690.87,
+    "seller_name": "Miller, Cooper and Roberson",
+    "buyer_name": "White Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00086-8855",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 8153.12,
+    "tax_amount": 1222.97,
+    "payable_amount": 9376.09,
+    "seller_name": "Robinson-Miller",
+    "buyer_name": "Edwards, Gilbert and Mathis"
+  },
+  {
+    "invoice_id": "TRAIN-00087-6424",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "USD",
+    "taxable_amount": 214202.3,
+    "tax_amount": 0.0,
+    "payable_amount": 214202.3,
+    "seller_name": "Hughes-Ballard",
+    "buyer_name": "Murphy-Miller"
+  },
+  {
+    "invoice_id": "TRAIN-00088-4706",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 31714.28,
+    "tax_amount": 4757.14,
+    "payable_amount": 36471.42,
+    "seller_name": "Gilbert-Butler",
+    "buyer_name": "Mata-Everett"
+  },
+  {
+    "invoice_id": "TRAIN-00089-2970",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 80038.8,
+    "tax_amount": 0.0,
+    "payable_amount": 80038.8,
+    "seller_name": "Hurst Inc",
+    "buyer_name": "Richard-Velasquez"
+  },
+  {
+    "invoice_id": "TRAIN-00090-2641",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 217824.68,
+    "tax_amount": 60990.91,
+    "payable_amount": 278815.59,
+    "seller_name": "Wilson PLC",
+    "buyer_name": "Parsons-Marshall"
+  },
+  {
+    "invoice_id": "TRAIN-00091-9462",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 55011.4,
+    "tax_amount": 2750.57,
+    "payable_amount": 57761.97,
+    "seller_name": "Johnson LLC",
+    "buyer_name": "Watkins, Rios and Hooper"
+  },
+  {
+    "invoice_id": "TRAIN-00092-1500",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 61131.28,
+    "tax_amount": 0.0,
+    "payable_amount": 67343.41,
+    "seller_name": "Ward, Jackson and Wood",
+    "buyer_name": "Hamilton, Stephenson and Freeman"
+  },
+  {
+    "invoice_id": "TRAIN-00093-1138",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 183620.42,
+    "tax_amount": 36724.08,
+    "payable_amount": 201982.46,
+    "seller_name": "Murray-French",
+    "buyer_name": "Freeman-Bailey"
+  },
+  {
+    "invoice_id": "TRAIN-00094-7620",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 260185.87,
+    "tax_amount": 72852.04,
+    "payable_amount": 333037.91,
+    "seller_name": "Williams Ltd",
+    "buyer_name": "Rivera-Freeman"
+  },
+  {
+    "invoice_id": "TRAIN-00095-1879",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 105632.9,
+    "tax_amount": 0.0,
+    "payable_amount": 105632.9,
+    "seller_name": "Scott Ltd",
+    "buyer_name": "Summers, Massey and King"
+  },
+  {
+    "invoice_id": "TRAIN-00096-1950",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 209645.05,
+    "tax_amount": 20964.51,
+    "payable_amount": 230609.56,
+    "seller_name": "Williamson and Sons",
+    "buyer_name": "Kerr Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00097-4742",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "USD",
+    "taxable_amount": 261703.13,
+    "tax_amount": 52340.63,
+    "payable_amount": 314043.76,
+    "seller_name": "Norman, Gonzales and White",
+    "buyer_name": "Wallace, Simmons and Carter"
+  },
+  {
+    "invoice_id": "TRAIN-00098-4402",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 3359.81,
+    "tax_amount": 671.96,
+    "payable_amount": 4031.77,
+    "seller_name": "Burgess, Hernandez and Moore",
+    "buyer_name": "Griffin and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00099-3862",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 147333.12,
+    "tax_amount": 22099.97,
+    "payable_amount": 169433.09,
+    "seller_name": "Hill-Logan",
+    "buyer_name": "Jones, Rubio and Browning"
+  },
+  {
+    "invoice_id": "TRAIN-00100-1472",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 60376.67,
+    "tax_amount": 16905.47,
+    "payable_amount": 77282.14,
+    "seller_name": "Mccann, Pugh and Davila",
+    "buyer_name": "Jackson LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00101-6664",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 199355.08,
+    "tax_amount": 0.0,
+    "payable_amount": 199355.08,
+    "seller_name": "Sparks, Ramirez and Scott",
+    "buyer_name": "Moses Group"
+  },
+  {
+    "invoice_id": "TRAIN-00102-8445",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 91971.01,
+    "tax_amount": 4598.55,
+    "payable_amount": 96569.56,
+    "seller_name": "Short, Mendez and Mcknight",
+    "buyer_name": "Jackson-Ross"
+  },
+  {
+    "invoice_id": "TRAIN-00103-3205",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 366936.43,
+    "tax_amount": 102742.2,
+    "payable_amount": 469678.63,
+    "seller_name": "Jefferson and Sons",
+    "buyer_name": "Nelson Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00104-2890",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 345932.17,
+    "tax_amount": 96861.01,
+    "payable_amount": 442793.18,
+    "seller_name": "Brown PLC",
+    "buyer_name": "Robles-Parker"
+  },
+  {
+    "invoice_id": "TRAIN-00105-7025",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 77895.11,
+    "tax_amount": 15579.02,
+    "payable_amount": 93474.13,
+    "seller_name": "Wilson-Larson",
+    "buyer_name": "Fields, Howell and Lee"
+  },
+  {
+    "invoice_id": "TRAIN-00106-2194",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 49172.65,
+    "tax_amount": 13768.34,
+    "payable_amount": 62940.99,
+    "seller_name": "Russell Group",
+    "buyer_name": "Valencia-Logan"
+  },
+  {
+    "invoice_id": "TRAIN-00107-1653",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 161343.55,
+    "tax_amount": 45176.19,
+    "payable_amount": 206519.74,
+    "seller_name": "Brown-Mann",
+    "buyer_name": "Miller Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00108-3916",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 96756.74,
+    "tax_amount": 27091.89,
+    "payable_amount": 123848.63,
+    "seller_name": "Torres Ltd",
+    "buyer_name": "Conley, Morrison and Cordova"
+  },
+  {
+    "invoice_id": "TRAIN-00109-4602",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 37505.09,
+    "tax_amount": 7501.02,
+    "payable_amount": 49605.72,
+    "seller_name": "Miller Group",
+    "buyer_name": "Simon-Simpson"
+  },
+  {
+    "invoice_id": "TRAIN-00110-1891",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 148147.47,
+    "tax_amount": 41481.29,
+    "payable_amount": 189628.76,
+    "seller_name": "Day PLC",
+    "buyer_name": "Shaffer-Weaver"
+  },
+  {
+    "invoice_id": "TRAIN-00111-2343",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 117605.36,
+    "tax_amount": 23521.07,
+    "payable_amount": 141126.43,
+    "seller_name": "Franklin, Brewer and Wall",
+    "buyer_name": "White, Williams and Castaneda"
+  },
+  {
+    "invoice_id": "TRAIN-00112-3935",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 155059.77,
+    "tax_amount": 23258.97,
+    "payable_amount": 178318.74,
+    "seller_name": "Pruitt Inc",
+    "buyer_name": "Knight, Hampton and Gonzalez"
+  },
+  {
+    "invoice_id": "TRAIN-00113-9222",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 59418.84,
+    "tax_amount": 11883.77,
+    "payable_amount": 71302.61,
+    "seller_name": "Smith, Irwin and Peterson",
+    "buyer_name": "Alvarez-Rivera"
+  },
+  {
+    "invoice_id": "TRAIN-00114-3095",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 300720.46,
+    "tax_amount": 45108.07,
+    "payable_amount": 345828.53,
+    "seller_name": "Rocha PLC",
+    "buyer_name": "Williams Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00115-3906",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 296447.79,
+    "tax_amount": 29644.78,
+    "payable_amount": 326092.57,
+    "seller_name": "Rodriguez-Mata",
+    "buyer_name": "Matthews, Wheeler and Garrison"
+  },
+  {
+    "invoice_id": "TRAIN-00116-3535",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 328907.13,
+    "tax_amount": 16445.36,
+    "payable_amount": 345352.49,
+    "seller_name": "Bolton, Kelley and Parker",
+    "buyer_name": "Hall-Sawyer"
+  },
+  {
+    "invoice_id": "TRAIN-00117-7564",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 19219.56,
+    "tax_amount": 0.0,
+    "payable_amount": 19219.56,
+    "seller_name": "Clarke-Larson",
+    "buyer_name": "Ramirez, Wright and Armstrong"
+  },
+  {
+    "invoice_id": "TRAIN-00118-2422",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 274970.04,
+    "tax_amount": 54994.01,
+    "payable_amount": 329964.05,
+    "seller_name": "Chapman-Chambers",
+    "buyer_name": "Patel-Harris"
+  },
+  {
+    "invoice_id": "TRAIN-00119-8517",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 35096.35,
+    "tax_amount": 3509.64,
+    "payable_amount": 38605.99,
+    "seller_name": "Riley, Barnes and Smith",
+    "buyer_name": "Smith-Reyes"
+  },
+  {
+    "invoice_id": "TRAIN-00120-5408",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "USD",
+    "taxable_amount": 97129.92,
+    "tax_amount": 19425.98,
+    "payable_amount": 116555.9,
+    "seller_name": "Jones-Lin",
+    "buyer_name": "Harris PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00121-1887",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 29575.07,
+    "tax_amount": 4436.26,
+    "payable_amount": 34011.33,
+    "seller_name": "Pacheco-Williamson",
+    "buyer_name": "Miles Group"
+  },
+  {
+    "invoice_id": "TRAIN-00122-4066",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 337499.51,
+    "tax_amount": 50624.93,
+    "payable_amount": 388124.44,
+    "seller_name": "Hansen, Maldonado and Carson",
+    "buyer_name": "Lawrence-Hansen"
+  },
+  {
+    "invoice_id": "TRAIN-00123-6638",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "AED",
+    "taxable_amount": 167992.36,
+    "tax_amount": 8399.62,
+    "payable_amount": 176391.98,
+    "seller_name": "Sims Ltd",
+    "buyer_name": "Miller, Diaz and Barrett"
+  },
+  {
+    "invoice_id": "TRAIN-00124-5444",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 120136.83,
+    "tax_amount": 12013.68,
+    "payable_amount": 132150.51,
+    "seller_name": "Morgan Inc",
+    "buyer_name": "Lopez Group"
+  },
+  {
+    "invoice_id": "TRAIN-00125-9987",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 278964.76,
+    "tax_amount": 55792.95,
+    "payable_amount": 334757.71,
+    "seller_name": "Johnson Inc",
+    "buyer_name": "Lowe, Miller and Ramsey"
+  },
+  {
+    "invoice_id": "TRAIN-00126-4924",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 166522.37,
+    "tax_amount": 0.0,
+    "payable_amount": 166522.37,
+    "seller_name": "Gallegos-Woods",
+    "buyer_name": "Gardner-Perez"
+  },
+  {
+    "invoice_id": "TRAIN-00127-6601",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 4462.81,
+    "tax_amount": 0.0,
+    "payable_amount": 4462.81,
+    "seller_name": "Ferguson PLC",
+    "buyer_name": "Patterson-Ortega"
+  },
+  {
+    "invoice_id": "TRAIN-00128-1549",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "AED",
+    "taxable_amount": 221447.09,
+    "tax_amount": 0.0,
+    "payable_amount": 221447.09,
+    "seller_name": "Smith, Johnston and Parker",
+    "buyer_name": "Lynch, Lara and Meadows"
+  },
+  {
+    "invoice_id": "TRAIN-00129-6824",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 325035.67,
+    "tax_amount": 0.0,
+    "payable_amount": 325035.67,
+    "seller_name": "Poole-Arias",
+    "buyer_name": "Mann, Farrell and Johnson"
+  },
+  {
+    "invoice_id": "TRAIN-00130-6254",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 191554.35,
+    "tax_amount": 0.0,
+    "payable_amount": 191554.35,
+    "seller_name": "Flowers PLC",
+    "buyer_name": "Beck LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00131-2276",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 173379.34,
+    "tax_amount": 48546.22,
+    "payable_amount": 221925.56,
+    "seller_name": "Olson PLC",
+    "buyer_name": "Bennett-Kerr"
+  },
+  {
+    "invoice_id": "TRAIN-00132-6163",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 201191.33,
+    "tax_amount": 56333.57,
+    "payable_amount": 257524.9,
+    "seller_name": "Black-Casey",
+    "buyer_name": "Sellers-Lambert"
+  },
+  {
+    "invoice_id": "TRAIN-00133-7014",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 134652.0,
+    "tax_amount": 13465.2,
+    "payable_amount": 148117.2,
+    "seller_name": "Smith PLC",
+    "buyer_name": "Williams, Vaughn and Watkins"
+  },
+  {
+    "invoice_id": "TRAIN-00134-6354",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 203526.02,
+    "tax_amount": 30528.9,
+    "payable_amount": 234054.92,
+    "seller_name": "Stewart Ltd",
+    "buyer_name": "Thomas, Foster and Ball"
+  },
+  {
+    "invoice_id": "TRAIN-00135-2843",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 124332.6,
+    "tax_amount": 6216.63,
+    "payable_amount": 130549.23,
+    "seller_name": "Johnson and Sons",
+    "buyer_name": "Bright, Powell and Bright"
+  },
+  {
+    "invoice_id": "TRAIN-00136-8373",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 72247.59,
+    "tax_amount": 3612.38,
+    "payable_amount": 75859.97,
+    "seller_name": "Mccarty, Bird and Larson",
+    "buyer_name": "Jackson, Miller and Williamson"
+  },
+  {
+    "invoice_id": "TRAIN-00137-5792",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 264441.22,
+    "tax_amount": 74043.54,
+    "payable_amount": 338484.76,
+    "seller_name": "Davidson-Mccarthy",
+    "buyer_name": "Friedman-Roberts"
+  },
+  {
+    "invoice_id": "TRAIN-00138-7837",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "USD",
+    "taxable_amount": 274667.23,
+    "tax_amount": 13733.36,
+    "payable_amount": 288400.59,
+    "seller_name": "Hampton-Green",
+    "buyer_name": "White, Banks and Miles"
+  },
+  {
+    "invoice_id": "TRAIN-00139-9230",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 135073.41,
+    "tax_amount": 27014.68,
+    "payable_amount": 162088.09,
+    "seller_name": "Wood-Clayton",
+    "buyer_name": "Bennett-Fitzgerald"
+  },
+  {
+    "invoice_id": "TRAIN-00140-2791",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 348709.79,
+    "tax_amount": 52306.47,
+    "payable_amount": 401016.26,
+    "seller_name": "Harris, Mckay and Fields",
+    "buyer_name": "Powell Group"
+  },
+  {
+    "invoice_id": "TRAIN-00141-2870",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 185185.94,
+    "tax_amount": 0.0,
+    "payable_amount": 185185.94,
+    "seller_name": "Oliver-Lopez",
+    "buyer_name": "Garner-Meza"
+  },
+  {
+    "invoice_id": "TRAIN-00142-2300",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 197270.44,
+    "tax_amount": 0.0,
+    "payable_amount": 197270.44,
+    "seller_name": "Moody-Hobbs",
+    "buyer_name": "Nixon Group"
+  },
+  {
+    "invoice_id": "TRAIN-00143-5903",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 277726.18,
+    "tax_amount": 55545.24,
+    "payable_amount": 333271.42,
+    "seller_name": "Ramirez and Sons",
+    "buyer_name": "Simmons, Velasquez and Foley"
+  },
+  {
+    "invoice_id": "TRAIN-00144-7783",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 64705.87,
+    "tax_amount": 6470.59,
+    "payable_amount": 71176.46,
+    "seller_name": "Martin PLC",
+    "buyer_name": "Swanson Group"
+  },
+  {
+    "invoice_id": "TRAIN-00145-8577",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 198564.79,
+    "tax_amount": 55598.14,
+    "payable_amount": 254162.93,
+    "seller_name": "Miller PLC",
+    "buyer_name": "Zuniga, Fernandez and Torres"
+  },
+  {
+    "invoice_id": "TRAIN-00146-9143",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 151934.91,
+    "tax_amount": 7596.75,
+    "payable_amount": 159531.66,
+    "seller_name": "Freeman and Sons",
+    "buyer_name": "Rodriguez, Reynolds and Gonzalez"
+  },
+  {
+    "invoice_id": "TRAIN-00147-7350",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 57146.88,
+    "tax_amount": 5714.69,
+    "payable_amount": 62861.57,
+    "seller_name": "Henderson, Smith and Boyle",
+    "buyer_name": "Gonzalez, Hamilton and Sanders"
+  },
+  {
+    "invoice_id": "TRAIN-00148-6218",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 47015.67,
+    "tax_amount": 0.0,
+    "payable_amount": 47015.67,
+    "seller_name": "Tran-Bradley",
+    "buyer_name": "Rodriguez-Sullivan"
+  },
+  {
+    "invoice_id": "TRAIN-00149-2286",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 42693.15,
+    "tax_amount": 2134.66,
+    "payable_amount": 44827.81,
+    "seller_name": "Jackson Group",
+    "buyer_name": "Miller, Quinn and Palmer"
+  },
+  {
+    "invoice_id": "TRAIN-00150-6758",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 316404.24,
+    "tax_amount": 88593.19,
+    "payable_amount": 404997.43,
+    "seller_name": "Allen-Bradford",
+    "buyer_name": "Hayes, Lynn and Lewis"
+  },
+  {
+    "invoice_id": "TRAIN-00151-7208",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "AED",
+    "taxable_amount": 128648.02,
+    "tax_amount": 6432.4,
+    "payable_amount": 135080.42,
+    "seller_name": "Becker, Taylor and Harrell",
+    "buyer_name": "Lynch, Juarez and Smith"
+  },
+  {
+    "invoice_id": "TRAIN-00152-1013",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 17291.36,
+    "tax_amount": 4841.58,
+    "payable_amount": 22132.94,
+    "seller_name": "Clark Ltd",
+    "buyer_name": "Duncan, Rivera and Contreras"
+  },
+  {
+    "invoice_id": "TRAIN-00153-3527",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "USD",
+    "taxable_amount": 68974.26,
+    "tax_amount": 0.0,
+    "payable_amount": 68974.26,
+    "seller_name": "Beard Inc",
+    "buyer_name": "Ross, Williams and Obrien"
+  },
+  {
+    "invoice_id": "TRAIN-00154-7959",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 242317.16,
+    "tax_amount": 36347.57,
+    "payable_amount": 278664.73,
+    "seller_name": "Lopez-Sanchez",
+    "buyer_name": "Hammond-Harvey"
+  },
+  {
+    "invoice_id": "TRAIN-00155-1845",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 96524.36,
+    "tax_amount": 9652.44,
+    "payable_amount": 106176.8,
+    "seller_name": "Carr-Johnson",
+    "buyer_name": "Price Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00156-4898",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 99240.95,
+    "tax_amount": 14886.14,
+    "payable_amount": 114127.09,
+    "seller_name": "Berry, Cook and Yang",
+    "buyer_name": "Palmer-Graham"
+  },
+  {
+    "invoice_id": "TRAIN-00157-7408",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 67982.06,
+    "tax_amount": 6798.21,
+    "payable_amount": 74780.27,
+    "seller_name": "Clark-Williams",
+    "buyer_name": "Cardenas, Nichols and Davies"
+  },
+  {
+    "invoice_id": "TRAIN-00158-7159",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 130972.33,
+    "tax_amount": 13097.23,
+    "payable_amount": 144069.56,
+    "seller_name": "Mcintyre PLC",
+    "buyer_name": "Montgomery-Dixon"
+  },
+  {
+    "invoice_id": "TRAIN-00159-4287",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 35029.62,
+    "tax_amount": 5254.44,
+    "payable_amount": 40284.06,
+    "seller_name": "Crosby-Barnett",
+    "buyer_name": "Morris, Green and Nguyen"
+  },
+  {
+    "invoice_id": "TRAIN-00160-7411",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 153258.88,
+    "tax_amount": 22988.83,
+    "payable_amount": 176247.71,
+    "seller_name": "Brown-Brown",
+    "buyer_name": "Becker, Hoffman and Meyer"
+  },
+  {
+    "invoice_id": "TRAIN-00161-1415",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 119965.53,
+    "tax_amount": 17994.83,
+    "payable_amount": 137960.36,
+    "seller_name": "Flowers, Jenkins and Nielsen",
+    "buyer_name": "Cooper-Walker"
+  },
+  {
+    "invoice_id": "TRAIN-00162-3796",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 208937.38,
+    "tax_amount": 41787.48,
+    "payable_amount": 250724.86,
+    "seller_name": "Barber Ltd",
+    "buyer_name": "Chavez LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00163-4377",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 273994.61,
+    "tax_amount": 27399.46,
+    "payable_amount": 301394.07,
+    "seller_name": "Foster, Smith and Schroeder",
+    "buyer_name": "Hernandez, Martinez and Stewart"
+  },
+  {
+    "invoice_id": "TRAIN-00164-6477",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 15904.08,
+    "tax_amount": 2385.61,
+    "payable_amount": 18289.69,
+    "seller_name": "Taylor, Flores and Fischer",
+    "buyer_name": "Phillips Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00165-7759",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 170789.76,
+    "tax_amount": 8539.49,
+    "payable_amount": 179329.25,
+    "seller_name": "Garcia Ltd",
+    "buyer_name": "Jones PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00166-1237",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 279672.17,
+    "tax_amount": 13983.61,
+    "payable_amount": 293655.78,
+    "seller_name": "Kelly Inc",
+    "buyer_name": "Velazquez-Williams"
+  },
+  {
+    "invoice_id": "TRAIN-00167-4030",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 5782.41,
+    "tax_amount": 1156.48,
+    "payable_amount": 6938.89,
+    "seller_name": "Gonzales, Hines and Allen",
+    "buyer_name": "Wilson-Ramos"
+  },
+  {
+    "invoice_id": "TRAIN-00168-2818",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 204879.21,
+    "tax_amount": 40975.84,
+    "payable_amount": 245855.05,
+    "seller_name": "Moore PLC",
+    "buyer_name": "Lee, Mclean and Berg"
+  },
+  {
+    "invoice_id": "TRAIN-00169-7031",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 53784.28,
+    "tax_amount": 0.0,
+    "payable_amount": 53784.28,
+    "seller_name": "Day, Sellers and Tyler",
+    "buyer_name": "Mcguire, Bennett and Jensen"
+  },
+  {
+    "invoice_id": "TRAIN-00170-8272",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 59186.99,
+    "tax_amount": 11837.4,
+    "payable_amount": 71024.39,
+    "seller_name": "Cook Ltd",
+    "buyer_name": "Williams Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00171-5259",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 138723.64,
+    "tax_amount": 6936.18,
+    "payable_amount": 145659.82,
+    "seller_name": "Morris-Bell",
+    "buyer_name": "Porter PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00172-9845",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 60523.97,
+    "tax_amount": 9078.6,
+    "payable_amount": 69602.57,
+    "seller_name": "Logan-Campbell",
+    "buyer_name": "Paul-Butler"
+  },
+  {
+    "invoice_id": "TRAIN-00173-6549",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 336020.53,
+    "tax_amount": 33602.05,
+    "payable_amount": 369622.58,
+    "seller_name": "Miller Inc",
+    "buyer_name": "Buckley, Brown and Stewart"
+  },
+  {
+    "invoice_id": "TRAIN-00174-7786",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 24749.96,
+    "tax_amount": 3712.49,
+    "payable_amount": 28462.45,
+    "seller_name": "Pugh PLC",
+    "buyer_name": "Burnett, Baldwin and Smith"
+  },
+  {
+    "invoice_id": "TRAIN-00175-4678",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "AED",
+    "taxable_amount": 177347.82,
+    "tax_amount": 35469.56,
+    "payable_amount": 212817.38,
+    "seller_name": "Huffman, Haney and Hart",
+    "buyer_name": "Church, Castillo and Chambers"
+  },
+  {
+    "invoice_id": "TRAIN-00176-6855",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 84834.49,
+    "tax_amount": 4241.72,
+    "payable_amount": 89076.21,
+    "seller_name": "White, Armstrong and Bullock",
+    "buyer_name": "Griffith Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00177-7837",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 27908.96,
+    "tax_amount": 1395.45,
+    "payable_amount": 29304.41,
+    "seller_name": "Torres, Maldonado and Coleman",
+    "buyer_name": "Brown, Carey and Dillon"
+  },
+  {
+    "invoice_id": "TRAIN-00178-2287",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 167016.42,
+    "tax_amount": 16701.64,
+    "payable_amount": 183718.06,
+    "seller_name": "Cuevas-Johnson",
+    "buyer_name": "Montgomery, Jones and Martin"
+  },
+  {
+    "invoice_id": "TRAIN-00179-2616",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 136056.66,
+    "tax_amount": 27211.33,
+    "payable_amount": 163267.99,
+    "seller_name": "Payne, Stone and Hardy",
+    "buyer_name": "Randolph and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00180-8011",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "AED",
+    "taxable_amount": 15817.58,
+    "tax_amount": 4428.92,
+    "payable_amount": 20246.5,
+    "seller_name": "Riley PLC",
+    "buyer_name": "Jenkins-Murphy"
+  },
+  {
+    "invoice_id": "TRAIN-00181-7557",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 79850.59,
+    "tax_amount": 11977.59,
+    "payable_amount": 91828.18,
+    "seller_name": "Perez-Hogan",
+    "buyer_name": "Morrison and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00182-3897",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 300587.46,
+    "tax_amount": 15029.37,
+    "payable_amount": 315616.83,
+    "seller_name": "Stanley-Armstrong",
+    "buyer_name": "Greene PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00183-4844",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 79137.48,
+    "tax_amount": 11870.62,
+    "payable_amount": 91008.1,
+    "seller_name": "Harris PLC",
+    "buyer_name": "Mcdonald, Wu and Lyons"
+  },
+  {
+    "invoice_id": "TRAIN-00184-6952",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 22318.16,
+    "tax_amount": 1115.91,
+    "payable_amount": 23434.07,
+    "seller_name": "Armstrong, Singh and Jones",
+    "buyer_name": "Walton and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00185-9268",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 227949.39,
+    "tax_amount": 45589.88,
+    "payable_amount": 273539.27,
+    "seller_name": "Clark-Shelton",
+    "buyer_name": "Burns, Flores and Anderson"
+  },
+  {
+    "invoice_id": "TRAIN-00186-5201",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 28052.9,
+    "tax_amount": 4207.94,
+    "payable_amount": 32260.84,
+    "seller_name": "Johnson-Lopez",
+    "buyer_name": "Cannon Group"
+  },
+  {
+    "invoice_id": "TRAIN-00187-2375",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 195839.6,
+    "tax_amount": 54835.09,
+    "payable_amount": 250674.69,
+    "seller_name": "Evans Ltd",
+    "buyer_name": "Wallace PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00188-2850",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 96191.68,
+    "tax_amount": 19238.34,
+    "payable_amount": 115430.02,
+    "seller_name": "Sexton, Hughes and Bennett",
+    "buyer_name": "Maldonado, Richards and Ho"
+  },
+  {
+    "invoice_id": "TRAIN-00189-1555",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "AED",
+    "taxable_amount": 190500.77,
+    "tax_amount": 9525.04,
+    "payable_amount": 200025.81,
+    "seller_name": "Walker-Kelly",
+    "buyer_name": "Cooke, Stanley and Flowers"
+  },
+  {
+    "invoice_id": "TRAIN-00190-5616",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 152699.36,
+    "tax_amount": 0.0,
+    "payable_amount": 152699.36,
+    "seller_name": "Best LLC",
+    "buyer_name": "White, Thomas and Stafford"
+  },
+  {
+    "invoice_id": "TRAIN-00191-4531",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 152189.41,
+    "tax_amount": 42613.03,
+    "payable_amount": 194802.44,
+    "seller_name": "Williams-Santiago",
+    "buyer_name": "Sandoval, Jones and Estrada"
+  },
+  {
+    "invoice_id": "TRAIN-00192-7241",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 59759.87,
+    "tax_amount": 0.0,
+    "payable_amount": 59759.87,
+    "seller_name": "Matthews and Sons",
+    "buyer_name": "Brown-Martinez"
+  },
+  {
+    "invoice_id": "TRAIN-00193-5312",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 52647.46,
+    "tax_amount": 7897.12,
+    "payable_amount": 60544.58,
+    "seller_name": "Paul-Parsons",
+    "buyer_name": "West-Patterson"
+  },
+  {
+    "invoice_id": "TRAIN-00194-7822",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 209555.65,
+    "tax_amount": 0.0,
+    "payable_amount": 209555.65,
+    "seller_name": "Fry, Aguilar and Williams",
+    "buyer_name": "Gomez, Rodriguez and Garza"
+  },
+  {
+    "invoice_id": "TRAIN-00195-2516",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "USD",
+    "taxable_amount": 54943.88,
+    "tax_amount": 15384.29,
+    "payable_amount": 70328.17,
+    "seller_name": "Morgan Ltd",
+    "buyer_name": "Wilson, Soto and Strong"
+  },
+  {
+    "invoice_id": "TRAIN-00196-8298",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 265978.8,
+    "tax_amount": 39896.82,
+    "payable_amount": 305875.62,
+    "seller_name": "Patel Inc",
+    "buyer_name": "Ayala LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00197-1741",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 224264.55,
+    "tax_amount": 62794.07,
+    "payable_amount": 287058.62,
+    "seller_name": "Rodriguez-Curry",
+    "buyer_name": "Keller, Bailey and Lucas"
+  },
+  {
+    "invoice_id": "TRAIN-00198-8139",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 98699.3,
+    "tax_amount": 0.0,
+    "payable_amount": 98699.3,
+    "seller_name": "Martin Ltd",
+    "buyer_name": "Brown LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00199-4799",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 415615.93,
+    "tax_amount": 62342.39,
+    "payable_amount": 477958.32,
+    "seller_name": "Moody-Howard",
+    "buyer_name": "Soto, Parker and Farrell"
+  },
+  {
+    "invoice_id": "TRAIN-00200-5975",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 135623.2,
+    "tax_amount": 6781.16,
+    "payable_amount": 142404.36,
+    "seller_name": "Kane, Love and Hayes",
+    "buyer_name": "Hutchinson LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00201-2934",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 225413.5,
+    "tax_amount": 11270.67,
+    "payable_amount": 236684.17,
+    "seller_name": "Hayes Group",
+    "buyer_name": "Jackson, Robinson and Kim"
+  },
+  {
+    "invoice_id": "TRAIN-00202-3385",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 239331.93,
+    "tax_amount": 23933.19,
+    "payable_amount": 263265.12,
+    "seller_name": "Davis Ltd",
+    "buyer_name": "Reyes, Molina and Moore"
+  },
+  {
+    "invoice_id": "TRAIN-00203-2380",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 248734.75,
+    "tax_amount": 69645.73,
+    "payable_amount": 318380.48,
+    "seller_name": "Ryan-Nguyen",
+    "buyer_name": "Martinez, Gentry and Kerr"
+  },
+  {
+    "invoice_id": "TRAIN-00204-6371",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 19195.54,
+    "tax_amount": 959.78,
+    "payable_amount": 20155.32,
+    "seller_name": "Fritz, Johnson and Pace",
+    "buyer_name": "Johnson Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00205-8210",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 51040.42,
+    "tax_amount": 14291.32,
+    "payable_amount": 65331.74,
+    "seller_name": "Howard Group",
+    "buyer_name": "Stokes, Doyle and Gregory"
+  },
+  {
+    "invoice_id": "TRAIN-00206-5968",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "AED",
+    "taxable_amount": 207565.3,
+    "tax_amount": 62269.58,
+    "payable_amount": 238700.09,
+    "seller_name": "Salinas-Cobb",
+    "buyer_name": "Edwards, Conley and Robinson"
+  },
+  {
+    "invoice_id": "TRAIN-00207-4152",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 255698.51,
+    "tax_amount": 12784.93,
+    "payable_amount": 268483.44,
+    "seller_name": "Green-Garcia",
+    "buyer_name": "Vega, Smith and Vaughan"
+  },
+  {
+    "invoice_id": "TRAIN-00208-6243",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 42762.52,
+    "tax_amount": 0.0,
+    "payable_amount": 42762.52,
+    "seller_name": "Phillips PLC",
+    "buyer_name": "Smith-Payne"
+  },
+  {
+    "invoice_id": "TRAIN-00209-2663",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 150738.91,
+    "tax_amount": 22610.84,
+    "payable_amount": 173349.75,
+    "seller_name": "Lee, Alexander and Smith",
+    "buyer_name": "Barber-Brown"
+  },
+  {
+    "invoice_id": "TRAIN-00210-2145",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 146227.54,
+    "tax_amount": 14622.75,
+    "payable_amount": 177034.32,
+    "seller_name": "Phillips, Wilson and Scott",
+    "buyer_name": "Smith-Holt"
+  },
+  {
+    "invoice_id": "TRAIN-00211-7769",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 15159.49,
+    "tax_amount": 3031.9,
+    "payable_amount": 18191.39,
+    "seller_name": "Escobar-Evans",
+    "buyer_name": "Thomas and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00212-4623",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 116149.35,
+    "tax_amount": 5807.47,
+    "payable_amount": 121956.82,
+    "seller_name": "Allen, James and Conway",
+    "buyer_name": "Gordon LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00213-7666",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 264267.35,
+    "tax_amount": 13213.37,
+    "payable_amount": 277480.72,
+    "seller_name": "Cooper, Turner and Cardenas",
+    "buyer_name": "Fields-Wilson"
+  },
+  {
+    "invoice_id": "TRAIN-00214-6583",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 105446.3,
+    "tax_amount": 0.0,
+    "payable_amount": 105446.3,
+    "seller_name": "Meyer-Jenkins",
+    "buyer_name": "Porter, Wilson and Williams"
+  },
+  {
+    "invoice_id": "TRAIN-00215-5831",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 224018.15,
+    "tax_amount": 44803.63,
+    "payable_amount": 268821.78,
+    "seller_name": "Wilson, Murray and Jones",
+    "buyer_name": "Chapman-Underwood"
+  },
+  {
+    "invoice_id": "TRAIN-00216-8140",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 217331.55,
+    "tax_amount": 10866.58,
+    "payable_amount": 228198.13,
+    "seller_name": "Nelson-Owen",
+    "buyer_name": "Smith-Arnold"
+  },
+  {
+    "invoice_id": "TRAIN-00217-8876",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 102346.95,
+    "tax_amount": 20469.39,
+    "payable_amount": 122816.34,
+    "seller_name": "Miles Inc",
+    "buyer_name": "Bryan Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00218-8474",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 240714.89,
+    "tax_amount": 67400.17,
+    "payable_amount": 308115.06,
+    "seller_name": "Thomas Ltd",
+    "buyer_name": "Woodward PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00219-8762",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 7710.71,
+    "tax_amount": 1156.61,
+    "payable_amount": 8867.32,
+    "seller_name": "Mercado LLC",
+    "buyer_name": "Lang-Alvarado"
+  },
+  {
+    "invoice_id": "TRAIN-00220-2376",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 199150.08,
+    "tax_amount": 55762.02,
+    "payable_amount": 280502.31,
+    "seller_name": "Arroyo-Fisher",
+    "buyer_name": "Crawford-Gray"
+  },
+  {
+    "invoice_id": "TRAIN-00221-7647",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 244512.81,
+    "tax_amount": 24451.28,
+    "payable_amount": 268964.09,
+    "seller_name": "Bradley-Gray",
+    "buyer_name": "Carter, Villa and Chapman"
+  },
+  {
+    "invoice_id": "TRAIN-00222-7247",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 171301.29,
+    "tax_amount": 25695.19,
+    "payable_amount": 196996.48,
+    "seller_name": "Baker PLC",
+    "buyer_name": "Nichols-Bonilla"
+  },
+  {
+    "invoice_id": "TRAIN-00223-4382",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "USD",
+    "taxable_amount": 291351.17,
+    "tax_amount": 29135.12,
+    "payable_amount": 320486.29,
+    "seller_name": "Martin PLC",
+    "buyer_name": "Porter Group"
+  },
+  {
+    "invoice_id": "TRAIN-00224-7447",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 112071.35,
+    "tax_amount": 5603.57,
+    "payable_amount": 117674.92,
+    "seller_name": "Smith-Brennan",
+    "buyer_name": "Flores, Harris and Kaufman"
+  },
+  {
+    "invoice_id": "TRAIN-00225-5105",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "USD",
+    "taxable_amount": 57581.95,
+    "tax_amount": 16122.95,
+    "payable_amount": 73704.9,
+    "seller_name": "Newton Ltd",
+    "buyer_name": "Cole-Long"
+  },
+  {
+    "invoice_id": "TRAIN-00226-5091",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "USD",
+    "taxable_amount": 2024.12,
+    "tax_amount": 202.41,
+    "payable_amount": 2548.18,
+    "seller_name": "Pena PLC",
+    "buyer_name": "Mckenzie, Brown and Cross"
+  },
+  {
+    "invoice_id": "TRAIN-00227-4105",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 18177.28,
+    "tax_amount": 5089.64,
+    "payable_amount": 23266.92,
+    "seller_name": "Sellers-Terry",
+    "buyer_name": "Peterson-Morgan"
+  },
+  {
+    "invoice_id": "TRAIN-00228-2668",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 40820.85,
+    "tax_amount": 11429.84,
+    "payable_amount": 52250.69,
+    "seller_name": "Rivera, Franklin and Humphrey",
+    "buyer_name": "Coleman-Cook"
+  },
+  {
+    "invoice_id": "TRAIN-00229-6060",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 11524.68,
+    "tax_amount": 576.23,
+    "payable_amount": 12100.91,
+    "seller_name": "Snyder and Sons",
+    "buyer_name": "Shaffer, Calderon and Maldonado"
+  },
+  {
+    "invoice_id": "TRAIN-00230-4969",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "AED",
+    "taxable_amount": 115477.77,
+    "tax_amount": 5773.89,
+    "payable_amount": 133475.83,
+    "seller_name": "Johnson Ltd",
+    "buyer_name": "Robinson, York and Mcgee"
+  },
+  {
+    "invoice_id": "TRAIN-00231-5079",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 109418.96,
+    "tax_amount": 5470.95,
+    "payable_amount": 114889.91,
+    "seller_name": "Bright-Johnson",
+    "buyer_name": "Waters-Morrison"
+  },
+  {
+    "invoice_id": "TRAIN-00232-6011",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 260423.37,
+    "tax_amount": 13021.17,
+    "payable_amount": 273444.54,
+    "seller_name": "Hernandez-Kennedy",
+    "buyer_name": "Madden-Smith"
+  },
+  {
+    "invoice_id": "TRAIN-00233-8827",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 39017.98,
+    "tax_amount": 10925.03,
+    "payable_amount": 49943.01,
+    "seller_name": "Stewart, Delacruz and Edwards",
+    "buyer_name": "Miller-Mercado"
+  },
+  {
+    "invoice_id": "TRAIN-00234-6045",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 215148.9,
+    "tax_amount": 10757.44,
+    "payable_amount": 225906.34,
+    "seller_name": "Cordova LLC",
+    "buyer_name": "Baker Group"
+  },
+  {
+    "invoice_id": "TRAIN-00235-8949",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 127688.31,
+    "tax_amount": 35752.73,
+    "payable_amount": 163441.04,
+    "seller_name": "Landry, Rice and Sanders",
+    "buyer_name": "Cannon, Miller and Flores"
+  },
+  {
+    "invoice_id": "TRAIN-00236-8486",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 221210.01,
+    "tax_amount": 44242.0,
+    "payable_amount": 265452.01,
+    "seller_name": "Wilson Inc",
+    "buyer_name": "Hughes-Sanchez"
+  },
+  {
+    "invoice_id": "TRAIN-00237-4987",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "AED",
+    "taxable_amount": 27872.22,
+    "tax_amount": 4180.83,
+    "payable_amount": 32053.05,
+    "seller_name": "Moran, Carroll and Marquez",
+    "buyer_name": "Clark, Ross and Griffin"
+  },
+  {
+    "invoice_id": "TRAIN-00238-6623",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 298735.97,
+    "tax_amount": 0.0,
+    "payable_amount": 298735.97,
+    "seller_name": "Cantrell LLC",
+    "buyer_name": "Mitchell, Preston and Thomas"
+  },
+  {
+    "invoice_id": "TRAIN-00239-5480",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 81917.66,
+    "tax_amount": 4095.88,
+    "payable_amount": 86013.54,
+    "seller_name": "Reyes-Wilson",
+    "buyer_name": "Bennett-Miller"
+  },
+  {
+    "invoice_id": "TRAIN-00240-2176",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 236758.47,
+    "tax_amount": 23675.85,
+    "payable_amount": 260434.32,
+    "seller_name": "Daniels Group",
+    "buyer_name": "Collier, Olson and Collins"
+  },
+  {
+    "invoice_id": "TRAIN-00241-5959",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 93348.84,
+    "tax_amount": 9334.88,
+    "payable_amount": 102683.72,
+    "seller_name": "Miller-Ortiz",
+    "buyer_name": "Flynn-Lynn"
+  },
+  {
+    "invoice_id": "TRAIN-00242-7290",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 95539.48,
+    "tax_amount": 0.0,
+    "payable_amount": 95539.48,
+    "seller_name": "Nguyen PLC",
+    "buyer_name": "Hunter PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00243-4378",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 14699.22,
+    "tax_amount": 1469.92,
+    "payable_amount": 16169.14,
+    "seller_name": "Green-Shaffer",
+    "buyer_name": "Delgado-Glover"
+  },
+  {
+    "invoice_id": "TRAIN-00244-4438",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 99005.07,
+    "tax_amount": 9900.51,
+    "payable_amount": 108905.58,
+    "seller_name": "Adams Inc",
+    "buyer_name": "Ritter-Mcbride"
+  },
+  {
+    "invoice_id": "TRAIN-00245-4156",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 141280.75,
+    "tax_amount": 0.0,
+    "payable_amount": 141280.75,
+    "seller_name": "Phillips, Guzman and Leonard",
+    "buyer_name": "Watson LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00246-6210",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 232293.17,
+    "tax_amount": 23229.32,
+    "payable_amount": 255522.49,
+    "seller_name": "Cross-Conley",
+    "buyer_name": "Terry-Boyd"
+  },
+  {
+    "invoice_id": "TRAIN-00247-1175",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 44404.46,
+    "tax_amount": 2220.22,
+    "payable_amount": 46624.68,
+    "seller_name": "Gonzales Inc",
+    "buyer_name": "Myers Group"
+  },
+  {
+    "invoice_id": "TRAIN-00248-9416",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "AED",
+    "taxable_amount": 261949.98,
+    "tax_amount": 0.0,
+    "payable_amount": 261949.98,
+    "seller_name": "Nixon-Santiago",
+    "buyer_name": "Ruiz-Scott"
+  },
+  {
+    "invoice_id": "TRAIN-00249-9668",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 170019.74,
+    "tax_amount": 8500.99,
+    "payable_amount": 178520.73,
+    "seller_name": "Taylor-Sparks",
+    "buyer_name": "Herrera, Jones and Morales"
+  },
+  {
+    "invoice_id": "TRAIN-00250-6322",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 25183.57,
+    "tax_amount": 3777.54,
+    "payable_amount": 28961.11,
+    "seller_name": "Solis, Carroll and Kennedy",
+    "buyer_name": "Moss, Wilson and Valdez"
+  },
+  {
+    "invoice_id": "TRAIN-00251-2884",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 173152.17,
+    "tax_amount": 0.0,
+    "payable_amount": 173152.17,
+    "seller_name": "Beck, Martin and Roberson",
+    "buyer_name": "Alexander Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00252-2005",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 88060.5,
+    "tax_amount": 13209.08,
+    "payable_amount": 101269.58,
+    "seller_name": "Cook, Green and Martinez",
+    "buyer_name": "Oconnor Group"
+  },
+  {
+    "invoice_id": "TRAIN-00253-7088",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 170223.11,
+    "tax_amount": 34044.62,
+    "payable_amount": 204267.73,
+    "seller_name": "Kline-Thompson",
+    "buyer_name": "Daniels, Alvarez and Murray"
+  },
+  {
+    "invoice_id": "TRAIN-00254-5745",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 292541.12,
+    "tax_amount": 29254.11,
+    "payable_amount": 321795.23,
+    "seller_name": "Simpson-Turner",
+    "buyer_name": "Cowan, Gomez and Huynh"
+  },
+  {
+    "invoice_id": "TRAIN-00255-5430",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 132181.3,
+    "tax_amount": 13218.13,
+    "payable_amount": 145399.43,
+    "seller_name": "Valdez and Sons",
+    "buyer_name": "Gilbert-Blanchard"
+  },
+  {
+    "invoice_id": "TRAIN-00256-8244",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 97621.7,
+    "tax_amount": 0.0,
+    "payable_amount": 97621.7,
+    "seller_name": "Christensen and Sons",
+    "buyer_name": "Houston, Brooks and Thompson"
+  },
+  {
+    "invoice_id": "TRAIN-00257-2802",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 11245.44,
+    "tax_amount": 2249.09,
+    "payable_amount": 13494.53,
+    "seller_name": "Carter, Wyatt and Freeman",
+    "buyer_name": "Walker-Hobbs"
+  },
+  {
+    "invoice_id": "TRAIN-00258-9906",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "AED",
+    "taxable_amount": 57152.79,
+    "tax_amount": 16002.78,
+    "payable_amount": 73155.57,
+    "seller_name": "Figueroa, Cooper and Cox",
+    "buyer_name": "Brooks, Huff and Smith"
+  },
+  {
+    "invoice_id": "TRAIN-00259-3475",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 97785.74,
+    "tax_amount": 27380.01,
+    "payable_amount": 125165.75,
+    "seller_name": "James and Sons",
+    "buyer_name": "Mitchell Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00260-5562",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 254953.8,
+    "tax_amount": 50990.76,
+    "payable_amount": 336638.02,
+    "seller_name": "Hall-Armstrong",
+    "buyer_name": "Hall, Edwards and Jensen"
+  },
+  {
+    "invoice_id": "TRAIN-00261-3283",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "USD",
+    "taxable_amount": 82902.16,
+    "tax_amount": 23212.6,
+    "payable_amount": 106114.76,
+    "seller_name": "Bennett Ltd",
+    "buyer_name": "Walker, Mccoy and Sandoval"
+  },
+  {
+    "invoice_id": "TRAIN-00262-5907",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 5607.8,
+    "tax_amount": 1570.18,
+    "payable_amount": 7177.98,
+    "seller_name": "Powell Ltd",
+    "buyer_name": "Parker, Jones and Peters"
+  },
+  {
+    "invoice_id": "TRAIN-00263-3569",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "AED",
+    "taxable_amount": 65596.34,
+    "tax_amount": 9839.45,
+    "payable_amount": 83078.37,
+    "seller_name": "Colon-Coleman",
+    "buyer_name": "Martin-Miller"
+  },
+  {
+    "invoice_id": "TRAIN-00264-2070",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "AED",
+    "taxable_amount": 257145.13,
+    "tax_amount": 51429.03,
+    "payable_amount": 308574.16,
+    "seller_name": "Kelly and Sons",
+    "buyer_name": "Hunter, Camacho and Torres"
+  },
+  {
+    "invoice_id": "TRAIN-00265-2528",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 106767.97,
+    "tax_amount": 0.0,
+    "payable_amount": 106767.97,
+    "seller_name": "Leon Inc",
+    "buyer_name": "York-Johnson"
+  },
+  {
+    "invoice_id": "TRAIN-00266-6071",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 124378.98,
+    "tax_amount": 18656.85,
+    "payable_amount": 143035.83,
+    "seller_name": "Perry-Montes",
+    "buyer_name": "Mcdonald, Woodard and Sullivan"
+  },
+  {
+    "invoice_id": "TRAIN-00267-3532",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 312485.49,
+    "tax_amount": 15624.27,
+    "payable_amount": 328109.76,
+    "seller_name": "Smith, Brown and Riley",
+    "buyer_name": "Scott Group"
+  },
+  {
+    "invoice_id": "TRAIN-00268-5421",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "USD",
+    "taxable_amount": 83611.23,
+    "tax_amount": 23411.14,
+    "payable_amount": 107022.37,
+    "seller_name": "White Ltd",
+    "buyer_name": "Daniels, Wilson and Lyons"
+  },
+  {
+    "invoice_id": "TRAIN-00269-1162",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 274583.74,
+    "tax_amount": 13729.19,
+    "payable_amount": 288312.93,
+    "seller_name": "Alvarez Inc",
+    "buyer_name": "Williams and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00270-8471",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 233023.36,
+    "tax_amount": 0.0,
+    "payable_amount": 233023.36,
+    "seller_name": "Dixon-Johnson",
+    "buyer_name": "Lopez, Jones and Clay"
+  },
+  {
+    "invoice_id": "TRAIN-00271-7243",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 194609.09,
+    "tax_amount": 9730.45,
+    "payable_amount": 204339.54,
+    "seller_name": "Donaldson and Sons",
+    "buyer_name": "Smith LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00272-3595",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 167802.17,
+    "tax_amount": 46984.61,
+    "payable_amount": 214786.78,
+    "seller_name": "Logan LLC",
+    "buyer_name": "Franco-Mendoza"
+  },
+  {
+    "invoice_id": "TRAIN-00273-2754",
+    "is_valid": false,
+    "faults": [
+      "wrong_payable"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 74184.42,
+    "tax_amount": 11127.66,
+    "payable_amount": 93942.29,
+    "seller_name": "Griffith Group",
+    "buyer_name": "Bell, Schmidt and Woods"
+  },
+  {
+    "invoice_id": "TRAIN-00274-1515",
+    "is_valid": false,
+    "faults": [
+      "missing_payment_means"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 290807.73,
+    "tax_amount": 43621.16,
+    "payable_amount": 334428.89,
+    "seller_name": "Shields-Robinson",
+    "buyer_name": "Page, Underwood and Neal"
+  },
+  {
+    "invoice_id": "TRAIN-00275-5451",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 157967.04,
+    "tax_amount": 15796.7,
+    "payable_amount": 173763.74,
+    "seller_name": "Robinson PLC",
+    "buyer_name": "Moore Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00276-4811",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 220289.27,
+    "tax_amount": 11014.46,
+    "payable_amount": 231303.73,
+    "seller_name": "Lopez, Newton and Sellers",
+    "buyer_name": "Smith PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00277-5670",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 86938.36,
+    "tax_amount": 13040.75,
+    "payable_amount": 99979.11,
+    "seller_name": "Curtis LLC",
+    "buyer_name": "Castillo, Thomas and Jones"
+  },
+  {
+    "invoice_id": "TRAIN-00278-2722",
+    "is_valid": true,
+    "faults": [],
+    "currency": "GBP",
+    "taxable_amount": 114415.28,
+    "tax_amount": 11441.53,
+    "payable_amount": 125856.81,
+    "seller_name": "Glover, Burns and Roberts",
+    "buyer_name": "Thomas-King"
+  },
+  {
+    "invoice_id": "TRAIN-00279-3069",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "USD",
+    "taxable_amount": 125061.91,
+    "tax_amount": 6253.1,
+    "payable_amount": 131315.01,
+    "seller_name": "Stanley-Maldonado",
+    "buyer_name": "Alvarado-Richardson"
+  },
+  {
+    "invoice_id": "TRAIN-00280-6957",
+    "is_valid": false,
+    "faults": [
+      "missing_supplier_contact"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 151175.76,
+    "tax_amount": 7558.79,
+    "payable_amount": 158734.55,
+    "seller_name": "Ramirez, Ho and Mitchell",
+    "buyer_name": "Jensen LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00281-6467",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 47597.55,
+    "tax_amount": 4759.76,
+    "payable_amount": 49977.43,
+    "seller_name": "Price, Rivera and Malone",
+    "buyer_name": "Freeman Group"
+  },
+  {
+    "invoice_id": "TRAIN-00282-2887",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "AED",
+    "taxable_amount": 91180.12,
+    "tax_amount": 9118.02,
+    "payable_amount": 95739.13,
+    "seller_name": "Stevens-Graves",
+    "buyer_name": "Baldwin, Bentley and Wood"
+  },
+  {
+    "invoice_id": "TRAIN-00283-4069",
+    "is_valid": false,
+    "faults": [
+      "wrong_customization_id"
+    ],
+    "currency": "GBP",
+    "taxable_amount": 180128.61,
+    "tax_amount": 18012.86,
+    "payable_amount": 198141.47,
+    "seller_name": "Francis-Jackson",
+    "buyer_name": "Bryant-Morgan"
+  },
+  {
+    "invoice_id": "TRAIN-00284-8935",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 160269.58,
+    "tax_amount": 16026.96,
+    "payable_amount": 176296.54,
+    "seller_name": "Murray-Aguilar",
+    "buyer_name": "Mckay, Wilson and Garner"
+  },
+  {
+    "invoice_id": "TRAIN-00285-5526",
+    "is_valid": false,
+    "faults": [
+      "missing_due_date"
+    ],
+    "currency": "AED",
+    "taxable_amount": 291051.11,
+    "tax_amount": 29105.11,
+    "payable_amount": 320156.22,
+    "seller_name": "Torres PLC",
+    "buyer_name": "Mcguire and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00286-1817",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 215312.99,
+    "tax_amount": 43062.6,
+    "payable_amount": 236844.29,
+    "seller_name": "Davis-Lee",
+    "buyer_name": "Wilson Inc"
+  },
+  {
+    "invoice_id": "TRAIN-00287-3270",
+    "is_valid": true,
+    "faults": [],
+    "currency": "EUR",
+    "taxable_amount": 275692.89,
+    "tax_amount": 41353.93,
+    "payable_amount": 317046.82,
+    "seller_name": "Baker PLC",
+    "buyer_name": "Gutierrez-Malone"
+  },
+  {
+    "invoice_id": "TRAIN-00288-1997",
+    "is_valid": false,
+    "faults": [
+      "wrong_tax_amt"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 18086.18,
+    "tax_amount": 1808.62,
+    "payable_amount": 18990.49,
+    "seller_name": "Wilson-Hunt",
+    "buyer_name": "Patterson, Reynolds and Evans"
+  },
+  {
+    "invoice_id": "TRAIN-00289-2587",
+    "is_valid": false,
+    "faults": [
+      "wrong_currency_on_line"
+    ],
+    "currency": "AED",
+    "taxable_amount": 239041.06,
+    "tax_amount": 23904.11,
+    "payable_amount": 262945.17,
+    "seller_name": "Burns Ltd",
+    "buyer_name": "Gill-Holmes"
+  },
+  {
+    "invoice_id": "TRAIN-00290-8282",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 222960.88,
+    "tax_amount": 33444.13,
+    "payable_amount": 256405.01,
+    "seller_name": "Christensen-Lowery",
+    "buyer_name": "Lopez LLC"
+  },
+  {
+    "invoice_id": "TRAIN-00291-3607",
+    "is_valid": false,
+    "faults": [
+      "future_issue_date"
+    ],
+    "currency": "AED",
+    "taxable_amount": 165375.23,
+    "tax_amount": 8268.76,
+    "payable_amount": 173643.99,
+    "seller_name": "Adams-Smith",
+    "buyer_name": "Rodriguez-Hall"
+  },
+  {
+    "invoice_id": "TRAIN-00292-8111",
+    "is_valid": true,
+    "faults": [],
+    "currency": "USD",
+    "taxable_amount": 4086.72,
+    "tax_amount": 0.0,
+    "payable_amount": 4086.72,
+    "seller_name": "Harris-Cooper",
+    "buyer_name": "Hendrix, Wu and Baker"
+  },
+  {
+    "invoice_id": "TRAIN-00293-6768",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 95309.83,
+    "tax_amount": 19061.97,
+    "payable_amount": 114371.8,
+    "seller_name": "Smith, Le and Perez",
+    "buyer_name": "Whitaker PLC"
+  },
+  {
+    "invoice_id": "TRAIN-00294-5274",
+    "is_valid": false,
+    "faults": [
+      "wrong_country_subentity"
+    ],
+    "currency": "AED",
+    "taxable_amount": 310907.14,
+    "tax_amount": 0.0,
+    "payable_amount": 310907.14,
+    "seller_name": "Gonzalez, Mckee and Kane",
+    "buyer_name": "Benson Ltd"
+  },
+  {
+    "invoice_id": "TRAIN-00295-7993",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 202857.82,
+    "tax_amount": 0.0,
+    "payable_amount": 202857.82,
+    "seller_name": "Washington, Smith and Stewart",
+    "buyer_name": "Stephens, Hicks and Jackson"
+  },
+  {
+    "invoice_id": "TRAIN-00296-9870",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 265214.48,
+    "tax_amount": 39782.17,
+    "payable_amount": 304996.65,
+    "seller_name": "Williams, Morris and Wade",
+    "buyer_name": "Crosby, Gross and Marshall"
+  },
+  {
+    "invoice_id": "TRAIN-00297-5301",
+    "is_valid": true,
+    "faults": [],
+    "currency": "SAR",
+    "taxable_amount": 168704.92,
+    "tax_amount": 16870.49,
+    "payable_amount": 185575.41,
+    "seller_name": "Long-May",
+    "buyer_name": "Hall Group"
+  },
+  {
+    "invoice_id": "TRAIN-00298-3036",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "EUR",
+    "taxable_amount": 123835.65,
+    "tax_amount": 6191.78,
+    "payable_amount": 130027.43,
+    "seller_name": "Cruz-Patel",
+    "buyer_name": "Grant and Sons"
+  },
+  {
+    "invoice_id": "TRAIN-00299-5244",
+    "is_valid": true,
+    "faults": [],
+    "currency": "AED",
+    "taxable_amount": 258559.1,
+    "tax_amount": 51711.82,
+    "payable_amount": 310270.92,
+    "seller_name": "Reynolds Inc",
+    "buyer_name": "Lopez, Soto and Coleman"
+  },
+  {
+    "invoice_id": "TRAIN-00300-4520",
+    "is_valid": false,
+    "faults": [
+      "missing_buyer_ref"
+    ],
+    "currency": "SAR",
+    "taxable_amount": 221765.43,
+    "tax_amount": 62094.32,
+    "payable_amount": 283859.75,
+    "seller_name": "Martin-Hall",
+    "buyer_name": "Poole, Harris and Moore"
+  }
+]
