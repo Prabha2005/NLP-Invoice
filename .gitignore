@@ -1,0 +1,56 @@
+# Text and markdown files (project notes, not source)
+*.txt
+*.md
+!README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dataset (generated — large, do not commit)
+dataset/xml_invoices_train/
+dataset/xml_invoices_test/
+dataset/rules_train.txt
+dataset/rules_test.txt
+dataset/rule_mappings_train.json
+dataset/validation_labels_train.json
+
+# SQLite
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
