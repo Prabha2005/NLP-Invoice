@@ -147,7 +147,7 @@ FAIL
 | API Docs         | 8000/docs  |                     
 
 ## Validation Flow
-
+```bash
 Plain-English Rule
         ↓
 Ollama Parser
@@ -159,3 +159,4 @@ Deterministic Validation Engine
 XML Invoice Validation
         ↓
 PASS / FAIL Response
+```
