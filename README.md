@@ -1,6 +1,6 @@
-## Backend Integration and API Development
+# Backend Integration and API Development
 
-# What I Worked On
+## What I Worked On
 
 1. Set up the FastAPI backend architecture
 2. Implemented REST API routes for rule parsing and validation
@@ -12,7 +12,7 @@
 8. Stabilized parser and validation pipeline for demo reliability
 9. Tested valid and invalid UBL XML invoices
 
-# Backend Setup Steps
+## Backend Setup Steps
 
 **1. Clone Repository**
 ```bash
@@ -49,7 +49,8 @@ pip install ollama
 ```
 
 **7. Install Ollama Runtime**
-# Download and install:
+
+## Download and install:
 Ollama Windows Installer
 
 **8. Pull LLM Model**
@@ -61,11 +62,11 @@ ollama pull llama3.2
 uvicorn app.main:app --reload
 ```
 
-# API Testing
+## API Testing
 Swagger/OpenAPI available at:
 http://127.0.0.1:8000/docs
 
-# API Endpoints Implemented
+## API Endpoints Implemented
 
 | **Method** | **Endpoint**          | **Purpose**                                    |
 | -----------| --------------------- | ---------------------------------------------- |
@@ -74,7 +75,7 @@ http://127.0.0.1:8000/docs
 | POST       | `/api/rules/run`      | Full validation pipeline                       |
 | GET        | `/health`             | Backend health check                           |
 
-# Rule Text Examples Used for Testing
+## Rule Text Examples Used for Testing
 
 **Example 1**
 Invoice must contain IssueDate
@@ -105,7 +106,7 @@ Invoice must contain BuyerReference
 **Expected:**
 FAIL
 
-# Example Successful API Response
+## Example Successful API Response
 ```bash
 {
   "status": "PASS",
@@ -118,7 +119,7 @@ FAIL
   }
 ```
 
-# Current Working Features
+## Current Working Features
 
 1. Plain-English rule parsing
 2. Typed IR generation
@@ -128,7 +129,7 @@ FAIL
 6. Local LLM execution using Ollama
 7. XML upload and validation pipeline
 
-# Current Hosting / Runtime
+## Current Hosting / Runtime
 
 | **Component** | **Hosting**                      |                                    
 | --------------| ---------------------------------|
@@ -137,7 +138,7 @@ FAIL
 | API Docs      | Swagger UI                       |                     
 | Frontend      | Next.js local development server |                   
 
-# Ports Used
+## Ports Used
 
 | **Service**      | **Port**   |                                    
 | --------------   | -----------|
@@ -145,7 +146,7 @@ FAIL
 | Next.js Frontend | 3000       |                        
 | API Docs         | 8000/docs  |                     
 
-# Validation Flow
+## Validation Flow
 
 Plain-English Rule
         ↓
