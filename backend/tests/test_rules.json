@@ -1,0 +1,10 @@
+[
+  {
+    "rule": "CustomizationID must end with @ae-1",
+    "expected": "FAIL"
+  },
+  {
+    "rule": "Invoice must contain DueDate",
+    "expected": "PASS"
+  }
+]

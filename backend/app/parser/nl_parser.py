@@ -1,5 +1,8 @@
 from __future__ import annotations
-import json, uuid
+
+import json
+import uuid
+
 from app.models.ir import RuleIR
 
 try:
@@ -8,8 +11,11 @@ try:
 except ImportError:
     _OLLAMA_AVAILABLE = False
 
+
 _SYSTEM_PROMPT = """
-You are a rule parser for XML invoice validation. Given a plain-English rule, return ONLY a valid JSON object with these exact keys:
+You are a rule parser for XML invoice validation.
+
+Given a plain-English rule, return ONLY a valid JSON object with these exact keys:
 
 {
   "rule_type": one of [required_field, conditional_required_field, date_validation, numeric_comparison, amount_calculation, currency_consistency, tax_category_validation, duplicate_field_check],
@@ -22,16 +28,22 @@ You are a rule parser for XML invoice validation. Given a plain-English rule, re
 }
 
 UBL 2.1 namespace prefixes:
-  cbc = urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2
-  cac = urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2
+cbc = urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2
+cac = urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2
 
-Return ONLY the JSON object. No explanation, no markdown, no code fences.
+Return ONLY valid JSON.
+No markdown.
+No explanation.
+No code fences.
 """.strip()
 
 
 def parse_rule(rule_text: str, rule_id: str | None = None) -> RuleIR:
+
     if not _OLLAMA_AVAILABLE:
-        raise RuntimeError("ollama package not installed. Run: pip install ollama")
+        raise RuntimeError(
+            "ollama package not installed. Run: pip install ollama"
+        )
 
     response = ollama.chat(
         model="llama3.2",
@@ -43,8 +55,28 @@ def parse_rule(rule_text: str, rule_id: str | None = None) -> RuleIR:
     )
 
     raw = response["message"]["content"]
+
+    # Convert JSON string to Python dict
     data = json.loads(raw)
+
+    # -----------------------------
+    # HACKATHON SAFETY CLEANUP
+    # -----------------------------
+
+    # Fix severity enum formatting
+    severity = str(data.get("severity", "HIGH"))
+
+    if "." in severity:
+        severity = severity.split(".")[-1]
+
+    data["severity"] = severity.upper()
+    #data["severity"] = str(severity).split(".")[-1].upper()
+    #data["severity"] = "HIGH"
+
+    # Ensure rule_id exists
     data["rule_id"] = rule_id or str(uuid.uuid4())[:8]
+
+    # Store original text
     data["rule_text"] = rule_text
 
     return RuleIR(**data)

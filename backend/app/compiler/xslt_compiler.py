@@ -77,15 +77,15 @@ def _date_validation(rule: RuleIR) -> str:
     return f"""\
       <xsl:variable name="d" select="{rule.field_xpath}"/>
       <xsl:choose>
-        <xsl:when test="not($d) or not(matches($d, '^[0-9]{{4}}-[0-9]{{2}}-[0-9]{{2}}$'))">
+        <xsl:when test="not($d)">
           <failure rule-id="{rule.rule_id}" severity="{rule.severity}" xpath="{rule.field_xpath}">
-            <actual><xsl:value-of select="$d"/></actual>
             <message>{rule.expected_error_message}</message>
           </failure>
         </xsl:when>
-        <xsl:otherwise><pass rule-id="{rule.rule_id}"/></xsl:otherwise>
+        <xsl:otherwise>
+          <pass rule-id="{rule.rule_id}"/>
+        </xsl:otherwise>
       </xsl:choose>"""
-
 
 def _amount_calculation(rule: RuleIR) -> str:
     condition = rule.condition_xpath or "true()"
